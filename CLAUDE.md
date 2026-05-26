@@ -1,3 +1,4 @@
+[CLAUDE.md](https://github.com/user-attachments/files/28286028/CLAUDE.md)
 # Kiara Insights — Project Instructions for Claude
 
 ## Git Workflow
@@ -16,7 +17,7 @@ This ensures articles go live on the site without any manual PR step.
 
 - Publish 2–3 articles per day, only about topics genuinely trending in the last 24–48h
 - Validate topics against: recency, multiple sources, investment angle, non-obvious take
-- Maximum 6 cards in `#articles-grid` — remove oldest if needed
+- Never remove existing articles — all published articles must stay
 - New articles always go AT THE TOP of the grid
 - Update the `<section class="featured">` with the most compelling article of the day
 - Add full article body to the `ARTICLES` JS object for modal reading
