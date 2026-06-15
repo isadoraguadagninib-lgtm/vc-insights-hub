@@ -1,0 +1,24 @@
+# Windows system files
+desktop.ini
+Thumbs.db
+ehthumbs.db
+
+# Claude Code local settings
+.claude/
+
+# Confidential brand & internal documents (keep local only)
+*.pdf
+*.pptx
+*.docx
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Editor folders
+.vscode/
+.idea/
+
+# Local working folders (not deployed)
+kiara-project/
+kiara-site/
