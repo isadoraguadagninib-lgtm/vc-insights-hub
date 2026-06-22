@@ -1099,9 +1099,84 @@
 <main class="main">
 
 
-  <div class="cards-grid" id="articles-grid">
+  <div class=”cards-grid” id=”articles-grid”>
 
-    <!-- Article â€” Artificial Intelligence Â· June 12 2026 -->
+    <!-- Article – Artificial Intelligence · June 22 2026 -->
+    <article class=”card”>
+      <div class=”card-img”>
+        <img
+          src=”https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=800&q=80&auto=format&fit=crop”
+          alt=”Odyssey AI world model $310M Series B simulation reality Amazon Trainium AWS AMD Nvidia”
+          onerror=”this.setAttribute('data-error','1');this.style.display='none'”
+          loading=”lazy”
+          width=”800” height=”450” decoding=”async”
+        />
+      </div>
+      <div class=”card-body”>
+        <div class=”card-meta”>
+          <span class=”tag”>Artificial Intelligence</span>
+          <span class=”dot”>·</span>
+          <time>June 22, 2026</time>
+          <span class=”dot”>·</span>
+          <span>5 min read</span>
+        </div>
+        <h2 class=”card-title”>Odyssey Raised $310M to Simulate Reality. It Picked Amazon Over Nvidia. That's the Story.</h2>
+        <p class=”card-excerpt”>Odyssey's world-model Series B, announced June 17, is backed by Amazon and AMD — a conspicuous absence of Nvidia in a company training on causal physical reality. When a well-funded AI lab re-routes its training workload away from the dominant GPU supplier, the hardware monopoly narrative gets complicated.</p>
+        <a href=”articles/ai-odyssey-world-model-310m/” class=”read-more” data-article=”ai-odyssey-world-model-310m”>Read article <i class=”ri-arrow-right-line”></i></a>
+      </div>
+    </article>
+
+    <!-- Article – Venture Capital · June 22 2026 -->
+    <article class=”card”>
+      <div class=”card-img”>
+        <img
+          src=”https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80&auto=format&fit=crop”
+          alt=”defense tech venture capital record $14.6 billion 2026 Anduril autonomous weapons AI VC thesis shift”
+          onerror=”this.setAttribute('data-error','1');this.style.display='none'”
+          loading=”lazy”
+          width=”800” height=”450” decoding=”async”
+        />
+      </div>
+      <div class=”card-body”>
+        <div class=”card-meta”>
+          <span class=”tag”>Venture Capital</span>
+          <span class=”dot”>·</span>
+          <time>June 22, 2026</time>
+          <span class=”dot”>·</span>
+          <span>5 min read</span>
+        </div>
+        <h2 class=”card-title”>Defense Tech Just Shattered VC's Yearly Record in the First Half of 2026. The Real Story Is What VCs Used to Think.</h2>
+        <p class=”card-excerpt”>Defense, national security, and law enforcement startups raised $14.6 billion in the first five months of 2026 — already surpassing the full-year 2025 record of $9.6 billion. The capital shift is real. What changed is who is writing the checks, and why the hesitation that defined a decade of VC practice is gone.</p>
+        <a href=”articles/vc-defense-tech-record-2026/” class=”read-more” data-article=”vc-defense-tech-record-2026”>Read article <i class=”ri-arrow-right-line”></i></a>
+      </div>
+    </article>
+
+    <!-- Article – Startups · June 22 2026 -->
+    <article class=”card”>
+      <div class=”card-img”>
+        <img
+          src=”https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80&auto=format&fit=crop”
+          alt=”Enter Brazilian legal AI unicorn $1.2 billion valuation Founders Fund Sequoia LatAm São Paulo jurídico”
+          onerror=”this.setAttribute('data-error','1');this.style.display='none'”
+          loading=”lazy”
+          width=”800” height=”450” decoding=”async”
+        />
+      </div>
+      <div class=”card-body”>
+        <div class=”card-meta”>
+          <span class=”tag”>Startups</span>
+          <span class=”dot”>·</span>
+          <time>June 22, 2026</time>
+          <span class=”dot”>·</span>
+          <span>5 min read</span>
+        </div>
+        <h2 class=”card-title”>Brazil's Courts Are the World's Hardest Training Data. That's Why Enter Is LatAm's First AI Unicorn.</h2>
+        <p class=”card-excerpt”>Enter reached a $1.2 billion valuation in May 2026, tripling in eight months by processing 300,000 lawsuits annually for Itaú, Santander, and Nubank. The bet Founders Fund and Sequoia are making isn't primarily about AI — it's about a training environment that no other market on earth can replicate.</p>
+        <a href=”articles/startups-enter-latam-ai-unicorn/” class=”read-more” data-article=”startups-enter-latam-ai-unicorn”>Read article <i class=”ri-arrow-right-line”></i></a>
+      </div>
+    </article>
+
+    <!-- Article – Artificial Intelligence · June 12 2026 -->
     <article class="card">
       <div class="card-img">
         <img
@@ -2424,6 +2499,60 @@
 
   /* â”€â”€ Article Modal â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
   const ARTICLES = {
+    'ai-odyssey-world-model-310m': {
+      tag: 'Artificial Intelligence',
+      date: 'June 22, 2026',
+      readtime: '5 min read',
+      img: 'https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=1200&q=80&auto=format&fit=crop',
+      title: "Odyssey Raised $310M to Simulate Reality. It Picked Amazon Over Nvidia. That's the Story.",
+      faq: [{"q":"What is a world model in AI?","a":"A world model is an AI system trained to understand causal physics and predict how environments evolve — distinct from generative AI in that it predicts next states rather than next tokens, and capable of generating synthetic training data through simulation of physical environments."},{"q":"Why did Odyssey choose Amazon and AMD over Nvidia for training?","a":"Odyssey is using AWS Trainium chips as the company's preferred cloud compute, an explicit divergence from the Nvidia H100/H200 default that dominates frontier AI training, signaling that purpose-built silicon can handle world-model workloads at competitive performance."},{"q":"What are the enterprise applications of world models beyond autonomous vehicles?","a":"Financial risk simulation under adversarial conditions, industrial process optimization, drug interaction modeling in biological environments, and multi-agent coordination in complex physical systems are natural extensions of world-model capabilities beyond autonomous driving."}],
+      takeaways: ["Odyssey raised $310M at a $1.45B valuation on June 17, 2026, led by Natural Capital with Amazon, AMD Ventures, GV, and EQT.","World models predict next states — causal physics — rather than next tokens, capable of generating synthetic training data through environment simulation.","Odyssey chose AWS Trainium chips over Nvidia H100/H200 GPUs, a meaningful divergence from the frontier AI compute default.","Backers include Jeff Dean, Elad Gil, Garry Tan, and Kyle Vogt (Cruise founder), reflecting deep prior investment in physical AI.","World model capabilities extend to financial risk simulation, industrial process modeling, and autonomous decision-making in complex environments."],
+      table: {"title":"Odyssey Series B at a glance","headers":["Detail","Value"],"rows":[["Round","Series B"],["Amount","$310M"],["Valuation","$1.45B"],["Date","June 17, 2026"],["Lead investor","Natural Capital"],["Key participants","Amazon, AMD Ventures, GV, EQT, IQT"]]},
+      body: `
+        <p>Every AI company is building a model. Only a few are trying to simulate a world. Odyssey, the AI lab founded by autonomous-vehicle veterans, raised $310 million in a Series B on June 17, 2026, at a $1.45 billion valuation. Natural Capital led the round. Amazon, AMD Ventures, GV, EQT, and IQT participated. One prominent name is absent: Nvidia.</p>
+        <p>World models — AI systems trained to understand causal physics and predict how environments evolve — are structurally distinct from generative AI. Language models predict the next token. World models predict the next state: what happens to an object when a force acts on it, how an agent navigating a physical space should behave under uncertainty, what the consequence of a decision is before it is executed. The distinction matters because world models can do something generative AI cannot: generate synthetic training data for other AI systems by simulating physical environments that don't yet exist. Odyssey's PROWL system demonstrates exactly this — world models that improve through active exploration rather than human-curated datasets.</p>
+        <p>The compute partnership is the underreported signal. Odyssey is training on AWS Trainium chips — Amazon's purpose-built AI training silicon. This is not a minor infrastructure decision. Nvidia's H100 and H200 GPUs have been the default compute substrate for virtually every frontier AI lab for three years. When a lab with $310 million in backing explicitly routes its training workload to non-Nvidia chips, it is both a commercial bet and a technical statement: Trainium can handle the specific workload profile of world-model training. If Odyssey's models continue to advance the state of the art on AWS silicon, it becomes a reference benchmark for training pipelines that don't require H100 allocations — and that matters for the cost structure of every AI company building on physical simulation.</p>
+        <p>The investor composition reinforces why this is more than a startup story. Jeff Dean, Google's chief scientist, was an early backer. Kyle Vogt — founder of Cruise, the autonomous vehicle company that spent years at exactly the intersection of world modeling, sensor fusion, and real-time decision-making that Odyssey addresses — also invested early. Garry Tan and Guillermo Rauch round out a backing group with unusually deep domain context. This is not a generalist AI lab experimenting with physical simulation because the category looked fundable. It is a team and investor base that has built and funded physical AI before, in harder environments.</p>
+        <p>The application layer for world models is wider than autonomous vehicles. Financial risk simulation — modeling how market conditions evolve under adversarial scenarios before executing a position — is a natural extension of world-model capabilities. Industrial process optimization, drug interaction modeling in biological environments, urban mobility routing for cities at the scale of São Paulo: these are domains where simulating physical consequence before acting is economically valuable in ways that token prediction alone cannot satisfy. Odyssey's current focus is general world simulation, but the compute architecture and simulation methods being built there will be available to application-layer founders across industries within the decade. For anyone building on AI infrastructure, the world-model layer is worth tracking before it becomes the obvious layer to track.</p>
+        <p>The frontier model race is about intelligence. The world-model race is about judgment — the capacity to understand consequence before acting. Those are not the same thing, and the investors backing Odyssey understand the difference.</p>
+      `
+    },
+    'vc-defense-tech-record-2026': {
+      tag: 'Venture Capital',
+      date: 'June 22, 2026',
+      readtime: '5 min read',
+      img: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80&auto=format&fit=crop',
+      title: "Defense Tech Just Shattered VC's Yearly Record in the First Half of 2026. The Real Story Is What VCs Used to Think.",
+      faq: [{"q":"How much has defense tech raised in VC in 2026?","a":"More than $14.6 billion in the first five months of 2026, surpassing the previous full-year record of $9.6 billion set in 2025, with Anduril, True Anomaly, Saronic, Shield AI, and Mach Industries among the largest rounds."},{"q":"Why has investor hesitation toward defense tech disappeared?","a":"Two forces converged: geopolitical pressure made defense investment feel less ideologically loaded, and AI reframed defense startups as software companies rather than weapons manufacturers — making the pitch to LPs structurally easier."},{"q":"What does defense AI investment mean for enterprise software?","a":"Agentic AI techniques developed for military coordination, autonomous decision-making under adversarial conditions, and real-time threat response will migrate into enterprise software — financial services risk systems, operational AI, and multi-agent platforms will carry methods forged in defense."}],
+      takeaways: ["Defense, national security, and law enforcement startups raised $14.6B in the first five months of 2026, surpassing all of 2025's $9.6B record.","Anduril's valuation doubled to $61B; True Anomaly raised $600M for space security; Saronic raised $1.75B for autonomous naval vessels; Shield AI raised $2B.","Investor hesitation toward defense has effectively evaporated, driven by geopolitics and the reframing of military AI as software rather than hardware.","Defense contracts offer government-backed long tenures, extreme switching costs, and mandated budget growth — a return profile rare in software markets.","Agentic AI methods developed for defense — autonomous decision-making under uncertainty — will migrate into financial services, logistics, and enterprise applications."],
+      table: {"title":"Notable 2026 defense tech rounds","headers":["Company","Round","Key Detail"],"rows":[["Anduril","$5B Series H","Valuation doubled to $61B"],["True Anomaly","$600M","Space security infrastructure"],["Saronic","$1.75B","Autonomous naval vessels"],["Shield AI","$2B Series G","AI-driven aviation platforms"],["Mach Industries","$300M Series C","Autonomous drones, $1.8B valuation"]]},
+      body: `
+        <p>Five months into 2026, venture capital has already poured $14.6 billion into defense, national security, and law enforcement startups — surpassing the previous full-year record of $9.6 billion set in all of 2025. Crunchbase tracks the numbers. Multiple outlets confirmed them this month. The math is significant. What it represents is a structural reclassification of defense as a venture asset class, not a niche allocation.</p>
+        <p>The largest rounds are well-documented: Anduril's valuation doubled from $30.5 billion to $61 billion. True Anomaly raised $600 million for space security infrastructure. Saronic closed $1.75 billion for unmanned naval vessels. Shield AI brought in $2 billion for AI-driven aviation platforms. Mach Industries secured $300 million for autonomous drone systems. The Pentagon is now actively encouraging VC participation, a reversal from the institutional distance that defined the prior decade. The concentration of capital into a small number of large platform companies mirrors the broader 2026 pattern: VCs are doubling down on category leaders in verticals where structural competition is limited, rather than spreading bets across an early-stage field.</p>
+        <p>The ethics shift is as significant as the economics. For most of the last decade, investing in autonomous weapons, surveillance systems, and national security startups carried a reputational cost that deterred many institutional LPs. "Dual use" was polite language for a category VCs participated in quietly. That hesitation has effectively evaporated. Two forces converged: the geopolitical environment made defense investment feel less morally loaded, and AI reframed defense startups as software companies rather than weapons manufacturers. When your product is an AI coordination layer for autonomous systems, the LP pitch sounds like enterprise SaaS — and increasingly, it prices like it. Institutional investors including Advent International and JPMorgan Chase led rounds alongside specialized defense funds, a co-investment pattern that would have been unusual three years ago.</p>
+        <p>The return logic is also compelling on its own terms. Defense contracts are government-backed, long-term, multi-year, and structurally resistant to churn. Customer acquisition costs are high, but lifetime value is enormous and the buyer's budget is legally mandated to grow. For a VC industry that watched consumer SaaS multiples compress and B2B software competition intensify, defense offers a combination that is rare: a buyer with extreme switching costs, a vendor evaluation process based primarily on capability rather than price, and a competitive landscape that is structurally limited by clearance requirements and regulatory barriers. Nearly four dozen companies in the military and national security sector are currently identified as probable IPO candidates — the exit path is becoming as credible as the entry thesis.</p>
+        <p>The implications for AI development extend beyond the defense sector. Defense is now the most demanding real-world test environment for agentic AI — autonomous decision-making under uncertainty, where the tolerance for error approaches zero. The techniques being developed for battlefield coordination, autonomous navigation in adversarial conditions, and real-time threat analysis don't stay inside classified programs. They migrate. The financial services applications of multi-agent risk systems, adversarial scenario modeling, and real-time autonomous decision frameworks will be built on methods that defense funding is writing today. For founders in LatAm building on AI infrastructure, understanding what defense is currently funding is a preview of what enterprise software will look like in five years.</p>
+        <p>VCs used to debate whether to invest in defense. In 2026, the debate is which defense company belongs in every portfolio — and how large the position should be.</p>
+      `
+    },
+    'startups-enter-latam-ai-unicorn': {
+      tag: 'Startups',
+      date: 'June 22, 2026',
+      readtime: '5 min read',
+      img: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&q=80&auto=format&fit=crop',
+      title: "Brazil's Courts Are the World's Hardest Training Data. That's Why Enter Is LatAm's First AI Unicorn.",
+      faq: [{"q":"What does Enter's product EnterOS do?","a":"EnterOS conducts the full judicial process end-to-end — case intake, procedural tracking, response drafting, settlement calculation, and outcome prediction — for companies managing high volumes of Brazilian litigation. It processes over 300,000 new lawsuits annually."},{"q":"Why is Brazil's legal system a competitive moat for Enter?","a":"Brazil has roughly 84 million active lawsuits and generates millions of new labor and consumer cases annually. Training on 300,000 cases per year in this environment produces legal AI that no European or American company can replicate, because the training environment doesn't exist outside of Brazil."},{"q":"Who backed Enter's Series B and what was the valuation trajectory?","a":"Founders Fund led the $100M Series B, with Sequoia Capital, Ribbit Capital, ONEVC, Atlantico, and Kaszek participating. Enter went from a $350M valuation at Series A in September 2025 to $1.2B at Series B in May 2026 — tripling in eight months."}],
+      takeaways: ["Enter reached a $1.2B valuation in May 2026, tripling from $350M in eight months to become LatAm's first AI unicorn.","Founders Fund led the $100M Series B, with Sequoia, Ribbit Capital, ONEVC, Atlantico, and Kaszek participating.","EnterOS processes 300,000+ new lawsuits annually for Itaú, Santander, Mercado Livre, Nubank, and Airbnb.","Revenue grew more than 10x between the September 2025 Series A and the May 2026 Series B; the client base tripled.","Brazil's 84 million active lawsuits create a training environment that no other market on earth can replicate — the complexity is the moat."],
+      table: {"title":"Enter valuation trajectory","headers":["Round","Valuation","Date"],"rows":[["Series A","$350M","September 2025"],["Series B","$1.2B","May 2026"]]},
+      body: `
+        <p>Brazil processes roughly 84 million active lawsuits at any given point — more than any other country on earth. Most founders look at that number and see a dysfunctional legal system. Founders Fund looked at it and wrote a check.</p>
+        <p>Enter, the São Paulo legal AI company founded by Mateus Costa-Ribeiro in 2023, raised $100 million at a $1.2 billion valuation in May 2026, tripling in eight months and becoming Latin America's first AI unicorn. The round was led by Founders Fund, with Sequoia Capital, Ribbit Capital, ONEVC, Atlantico, and Kaszek participating. Between the September 2025 Series A — itself co-led by Founders Fund and Sequoia at a $350 million valuation — and this round, revenue increased more than 10x and the client base tripled. Clients now include Itaú, Santander, Mercado Livre, Nubank, and Airbnb: companies processing high-volume litigation not because they choose to, but because Brazilian consumer and labor law structurally guarantees it.</p>
+        <p>The moat is structural rather than technical. Enter's product — EnterOS — conducts the judicial process from beginning to end: case intake, procedural tracking, response drafting, settlement calculation, outcome prediction. That capability alone doesn't make the company defensible. What does is the training data underlying those predictions. Brazilian jurisprudence carries decades of layered precedent, a labor law framework that generates millions of cases annually, and a consumer protection culture that routes virtually every dispute to court rather than arbitration. Training on 300,000 new cases per year in that environment produces legal AI that cannot be replicated by a US or European competitor — not because of model architecture, but because the training environment doesn't exist anywhere else. The complexity of Brazil's legal system, which most foreign investors treat as a reason to stay away, is precisely what makes Enter's position defensible.</p>
+        <p>Mateus Costa-Ribeiro's background is unusually relevant to the product. He became Brazil's youngest practicing lawyer at 18, passed the New York Bar at 20, and graduated from Harvard Law before leaving a Stanford MBA to found Enter. That trajectory is worth noting less for the credential stack than for what it means about founder-market fit: he built automation for a system he practiced in, with an intuition about what breaks down at volume that outside observers cannot develop through desk research. Founders Fund and Sequoia, both notably selective in their international bets, co-invested at two consecutive rounds. That consistency of conviction is itself a signal.</p>
+        <p>The question that will shape Enter's next phase is geographic. Brazilian legal AI is highly specific — the CPF framework, TST precedents, labor law traditions, and consumer code enforcement mechanisms are not portable. Mexico runs a different system. Colombia another. Argentina a third. The data moat that makes Enter defensible in Brazil also constrains simple geographic replication. The company can build regional presence through local data accumulation and system configuration, but it cannot deploy the same model cross-border. How Enter manages that tension — whether the $1.2 billion is the foundation of a continental legal AI platform or a highly defensible single-market business — will be determined by how aggressively it moves in the next eighteen months before any local competitor develops comparable data depth.</p>
+        <p>Enter becoming LatAm's first AI unicorn is less a story about AI and more about what happens when the hardest operating environment becomes the best training set. The insight isn't "Brazil has a lot of lawsuits." The insight is that difficulty at scale is the input for moats at scale — and investors who understood that early are now marked up 3x in eight months.</p>
+      `
+    },
     'vc-deepseek-74b-first-round': {
       tag: 'Venture Capital',
       date: 'June 9, 2026',

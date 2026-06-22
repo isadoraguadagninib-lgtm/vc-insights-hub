@@ -98,9 +98,9 @@
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
 
 <style>
-    /* ─── Design Tokens ──────────────────────────────────────── */
+    /* â”€â”€â”€ Design Tokens â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     :root {
-      /* Brand colors — Kiara Style Guide 2023 */
+      /* Brand colors â€” Kiara Style Guide 2023 */
       --kiara-purple:       #7664FA;   /* primary */
       --kiara-blue:         #49FADE;   /* secondary / cyan */
 
@@ -155,7 +155,7 @@
       --transition:         .22s cubic-bezier(.4,0,.2,1);
     }
 
-    /* ─── Reset ──────────────────────────────────────────────── */
+    /* â”€â”€â”€ Reset â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
 
@@ -171,7 +171,7 @@
     img { display: block; width: 100%; }
     a   { text-decoration: none; color: inherit; }
 
-    /* ─── Utility ────────────────────────────────────────────── */
+    /* â”€â”€â”€ Utility â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .gradient-text {
       background: linear-gradient(120deg, var(--kiara-purple), var(--kiara-blue));
       -webkit-background-clip: text;
@@ -179,7 +179,7 @@
       background-clip: text;
     }
 
-    /* ─── HEADER ─────────────────────────────────────────────── */
+    /* â”€â”€â”€ HEADER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     header {
       position: sticky;
       top: 0;
@@ -280,7 +280,7 @@
       box-shadow: 0 6px 20px rgba(118,100,250,.35);
     }
 
-    /* ─── HERO ───────────────────────────────────────────────── */
+    /* â”€â”€â”€ HERO â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .hero {
       background: var(--blue-900);
       padding: 88px 28px 96px;
@@ -440,7 +440,7 @@
       background: rgba(255,255,255,.1);
     }
 
-    /* ─── TOPICS BAR ─────────────────────────────────────────── */
+    /* â”€â”€â”€ TOPICS BAR â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .topics-bar {
       background: var(--white);
       border-bottom: 1px solid var(--gray-200);
@@ -482,7 +482,7 @@
       border-bottom-color: var(--kiara-purple);
     }
 
-    /* ─── MAIN ───────────────────────────────────────────────── */
+    /* â”€â”€â”€ MAIN â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .main {
       max-width: 1200px;
       margin: 0 auto;
@@ -533,7 +533,7 @@
 
 
 
-    /* ─── CARDS GRID ─────────────────────────────────────────── */
+    /* â”€â”€â”€ CARDS GRID â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .cards-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -566,6 +566,7 @@
     }
 
     .card-img img {
+      width: 100%;
       height: 100%;
       object-fit: cover;
       transition: transform .45s ease;
@@ -674,7 +675,7 @@
     .read-more:hover { gap: 9px; }
     .read-more i { font-size: 14px; }
 
-    /* ─── NEWSLETTER ─────────────────────────────────────────── */
+    /* â”€â”€â”€ NEWSLETTER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .newsletter {
       background: var(--blue-900);
       border-radius: var(--radius-lg);
@@ -782,7 +783,7 @@
 
     .nl-form button:hover { opacity: .88; }
 
-    /* ─── PAGINATION ─────────────────────────────────────────── */
+    /* â”€â”€â”€ PAGINATION â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .pagination {
       display: flex;
       align-items: center;
@@ -811,7 +812,7 @@
     .page-btn.active     { background: linear-gradient(135deg, var(--kiara-purple), #9B8AFF); color: #fff; border-color: transparent; box-shadow: 0 4px 14px rgba(118,100,250,.3); }
     .page-btn.ellipsis   { border: none; background: transparent; cursor: default; }
 
-    /* ─── FOOTER ─────────────────────────────────────────────── */
+    /* â”€â”€â”€ FOOTER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     footer {
       background: var(--blue-900);
       border-top: 1px solid rgba(118,100,250,.15);
@@ -885,7 +886,7 @@
       background: rgba(118,100,250,.1);
     }
 
-    /* ─── RESPONSIVE ─────────────────────────────────────────── */
+    /* â”€â”€â”€ RESPONSIVE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     @media (max-width: 1024px) {
       .cards-grid        { grid-template-columns: repeat(2, 1fr); }
       .footer-top        { grid-template-columns: 1fr 1fr; gap: 36px; }
@@ -908,7 +909,7 @@
       .hero                  { padding: 60px 24px 72px; }
     }
 
-    /* ─── Card meta row (injected articles) ─────── */
+    /* â”€â”€â”€ Card meta row (injected articles) â”€â”€â”€â”€â”€â”€â”€ */
     .card-meta {
       display: flex;
       align-items: center;
@@ -935,7 +936,7 @@
       color: var(--gray-400);
     }
 
-    /* ─── Article Modal ──────────────────────────── */
+    /* â”€â”€â”€ Article Modal â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .modal-overlay {
       display: none;
       position: fixed;
@@ -1032,6 +1033,36 @@
       .modal-hero-img { height: 200px; }
       .modal-content  { padding: 28px 22px 38px; }
     }
+
+    /* FAQ + Related (modal + injected) */
+    .faq { margin-top:36px; border-top:1px solid var(--border); padding-top:24px; }
+    .faq-h { font-family:'Sora',sans-serif; font-size:19px; font-weight:800; color:var(--gray-900); margin-bottom:16px; }
+    .faq-item { margin-bottom:16px; }
+    .faq-q { font-family:'Sora',sans-serif; font-size:15px; font-weight:700; color:var(--gray-900); margin-bottom:6px; }
+    .faq-a { font-size:15px; line-height:1.7; color:var(--gray-700); }
+    .related { margin-top:36px; border-top:1px solid var(--border); padding-top:24px; }
+    .related-h { font-family:'Sora',sans-serif; font-size:13px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--kiara-purple); margin-bottom:14px; }
+    .related-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+    .related-card { display:flex; flex-direction:column; gap:8px; background:var(--bg-page); border:1px solid var(--border); border-radius:var(--radius-md); padding:14px; text-decoration:none; transition:var(--transition); }
+    .related-card:hover { box-shadow:var(--shadow-sm); transform:translateY(-2px); }
+    .related-tag { font-family:'Sora',sans-serif; font-size:10px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--kiara-purple); }
+    .related-title { font-family:'Sora',sans-serif; font-size:13px; font-weight:600; line-height:1.35; color:var(--gray-900); }
+    @media (max-width:768px){ .related-grid{ grid-template-columns:1fr; } }
+
+    /* Key takeaways + data table (modal + pages) */
+    .takeaways { background:rgba(118,100,250,.06); border:1px solid var(--border); border-left:4px solid var(--kiara-purple);
+      border-radius:var(--radius-md); padding:18px 22px; margin-bottom:30px; }
+    .takeaways-h { font-family:'Sora',sans-serif; font-size:13px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--kiara-purple); margin-bottom:10px; }
+    .takeaways-list { margin:0; padding-left:20px; }
+    .takeaways-list li { font-size:15px; line-height:1.6; color:var(--gray-700); margin-bottom:7px; }
+    .takeaways-list li:last-child { margin-bottom:0; }
+    .data-table { margin:30px 0 0; }
+    .data-table figcaption { font-family:'Sora',sans-serif; font-size:13px; font-weight:700; letter-spacing:.5px; text-transform:uppercase; color:var(--kiara-purple); margin-bottom:10px; }
+    .data-table table { width:100%; border-collapse:collapse; font-size:14px; }
+    .data-table th, .data-table td { text-align:left; padding:9px 12px; border:1px solid var(--border); }
+    .data-table th { background:rgba(118,100,250,.08); font-family:'Sora',sans-serif; font-weight:700; color:var(--gray-900); }
+    .data-table td { color:var(--gray-700); }
+    .data-table tbody tr:nth-child(even) { background:var(--gray-50); }
   </style>
   <style>
     .article-wrap { max-width: 760px; margin: 0 auto; padding: 48px 20px 72px; }
@@ -1055,7 +1086,7 @@
 <header>
   <div class="header-inner">
 
-    <a href="/" class="logo">
+    <a href="./" class="logo">
       <img src="logo-blue.svg" alt="Kiara Capital" class="logo-header-img" />
       <div class="logo-text-wrap" style="display:none">
       </div>
@@ -1092,11 +1123,11 @@
       <h1 class="modal-title">OpenAI Filed for a $1 Trillion IPO While Burning $14 Billion a Year. Public Markets Will Price What Private Capital Couldn't.</h1>
       <div class="modal-body">
 <p>OpenAI's confidential S-1, filed May 22, contains a number that private investors never had to price: the gross margin. At 33 percent. For a company targeting a $1 trillion public valuation, that's the structural constraint public markets will spend the next decade trying to resolve.</p>
-        <p>The financial profile is stark. $25 billion in annualized revenue — the fastest revenue ramp in corporate history. $14 billion in projected operating losses for 2026. A negative 122 percent non-GAAP operating margin for Q1. And a $207 billion capital requirement through 2030, per HSBC's modeling, just to honor existing compute commitments. The IPO isn't Sam Altman declaring victory. It's the realization that public capital is the only pool deep enough to fund what OpenAI has committed to building.</p>
-        <p>The timing is not incidental. OpenAI filed two days after a jury dismissed Elon Musk's lawsuit — removing the last meaningful legal obstacle. It filed as Anthropic closed a $65 billion round at a $965 billion post-money valuation, surpassing OpenAI's own $852 billion private mark for the first time. The company that invented modern large language models is now the second-most-valuable AI startup in the world, and its S-1 is the financial document that will explain how that happened.</p>
-        <p>The public market math is where the story gets structurally important. A 33 percent gross margin means that for every dollar of revenue, approximately 67 cents goes to compute costs before paying a single employee or building a single product. At $25 billion in annualized revenue, that's roughly $16.75 billion per year in inference compute — a number that rises as usage scales. The path to profitability requires either a dramatic compression in compute costs or a shift in product mix toward higher-margin enterprise software. Both are possible. Neither is immediate.</p>
+        <p>The financial profile is stark. $25 billion in annualized revenue â€” the fastest revenue ramp in corporate history. $14 billion in projected operating losses for 2026. A negative 122 percent non-GAAP operating margin for Q1. And a $207 billion capital requirement through 2030, per HSBC's modeling, just to honor existing compute commitments. The IPO isn't Sam Altman declaring victory. It's the realization that public capital is the only pool deep enough to fund what OpenAI has committed to building.</p>
+        <p>The timing is not incidental. OpenAI filed two days after a jury dismissed Elon Musk's lawsuit â€” removing the last meaningful legal obstacle. It filed as Anthropic closed a $65 billion round at a $965 billion post-money valuation, surpassing OpenAI's own $852 billion private mark for the first time. The company that invented modern large language models is now the second-most-valuable AI startup in the world, and its S-1 is the financial document that will explain how that happened.</p>
+        <p>The public market math is where the story gets structurally important. A 33 percent gross margin means that for every dollar of revenue, approximately 67 cents goes to compute costs before paying a single employee or building a single product. At $25 billion in annualized revenue, that's roughly $16.75 billion per year in inference compute â€” a number that rises as usage scales. The path to profitability requires either a dramatic compression in compute costs or a shift in product mix toward higher-margin enterprise software. Both are possible. Neither is immediate.</p>
         <p>For the application layer, the S-1 math tells a precise story. Foundation model companies are building trillion-dollar businesses with the economics of semiconductor manufacturing: capital-intensive, operationally complex, with gross margins that improve slowly and only at extreme scale. The application layer doesn't carry this burden. A well-built domain-specific AI product running on API access inherits frontier intelligence at commodity pricing and captures margin from domain expertise and distribution that no foundation lab can replicate.</p>
-        <p>When OpenAI goes public at or above $1 trillion, it will mark the exact moment the intelligence layer is priced as infrastructure — durable, essential, and structurally expensive to run. Every company building on top of that infrastructure will need to answer a question the S-1 cannot answer for them: what do you own that no model can replicate at the next price point?</p>
+        <p>When OpenAI goes public at or above $1 trillion, it will mark the exact moment the intelligence layer is priced as infrastructure â€” durable, essential, and structurally expensive to run. Every company building on top of that infrastructure will need to answer a question the S-1 cannot answer for them: what do you own that no model can replicate at the next price point?</p>
       </div>
     </div>
   </article>
@@ -1111,7 +1142,7 @@
     <div class="footer-top">
 
       <div>
-        <a href="/" class="logo footer-logo">
+        <a href="./" class="logo footer-logo">
           <div class="logo-icon">
         <img src="logo 800px.png" alt="Kiara Capital" style="width:68px;height:68px;object-fit:contain;" />
       </div>
@@ -1128,7 +1159,7 @@
 
     <div class="footer-bottom">
       <p class="footer-copy">
-        © 2026 Kiara Capital. All rights reserved. Content is for informational purposes only and does not constitute an offer of securities or investment advice.
+        Â© 2026 Kiara Capital. All rights reserved. Content is for informational purposes only and does not constitute an offer of securities or investment advice.
       </p>
     </div>
 

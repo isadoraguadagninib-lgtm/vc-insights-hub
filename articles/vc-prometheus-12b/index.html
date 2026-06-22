@@ -98,9 +98,9 @@
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
 
 <style>
-    /* ─── Design Tokens ──────────────────────────────────────── */
+    /* â”€â”€â”€ Design Tokens â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     :root {
-      /* Brand colors — Kiara Style Guide 2023 */
+      /* Brand colors â€” Kiara Style Guide 2023 */
       --kiara-purple:       #7664FA;   /* primary */
       --kiara-blue:         #49FADE;   /* secondary / cyan */
 
@@ -155,7 +155,7 @@
       --transition:         .22s cubic-bezier(.4,0,.2,1);
     }
 
-    /* ─── Reset ──────────────────────────────────────────────── */
+    /* â”€â”€â”€ Reset â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
 
@@ -171,7 +171,7 @@
     img { display: block; width: 100%; }
     a   { text-decoration: none; color: inherit; }
 
-    /* ─── Utility ────────────────────────────────────────────── */
+    /* â”€â”€â”€ Utility â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .gradient-text {
       background: linear-gradient(120deg, var(--kiara-purple), var(--kiara-blue));
       -webkit-background-clip: text;
@@ -179,7 +179,7 @@
       background-clip: text;
     }
 
-    /* ─── HEADER ─────────────────────────────────────────────── */
+    /* â”€â”€â”€ HEADER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     header {
       position: sticky;
       top: 0;
@@ -280,7 +280,7 @@
       box-shadow: 0 6px 20px rgba(118,100,250,.35);
     }
 
-    /* ─── HERO ───────────────────────────────────────────────── */
+    /* â”€â”€â”€ HERO â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .hero {
       background: var(--blue-900);
       padding: 88px 28px 96px;
@@ -440,7 +440,7 @@
       background: rgba(255,255,255,.1);
     }
 
-    /* ─── TOPICS BAR ─────────────────────────────────────────── */
+    /* â”€â”€â”€ TOPICS BAR â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .topics-bar {
       background: var(--white);
       border-bottom: 1px solid var(--gray-200);
@@ -482,7 +482,7 @@
       border-bottom-color: var(--kiara-purple);
     }
 
-    /* ─── MAIN ───────────────────────────────────────────────── */
+    /* â”€â”€â”€ MAIN â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .main {
       max-width: 1200px;
       margin: 0 auto;
@@ -533,7 +533,7 @@
 
 
 
-    /* ─── CARDS GRID ─────────────────────────────────────────── */
+    /* â”€â”€â”€ CARDS GRID â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .cards-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -566,6 +566,7 @@
     }
 
     .card-img img {
+      width: 100%;
       height: 100%;
       object-fit: cover;
       transition: transform .45s ease;
@@ -674,7 +675,7 @@
     .read-more:hover { gap: 9px; }
     .read-more i { font-size: 14px; }
 
-    /* ─── NEWSLETTER ─────────────────────────────────────────── */
+    /* â”€â”€â”€ NEWSLETTER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .newsletter {
       background: var(--blue-900);
       border-radius: var(--radius-lg);
@@ -782,7 +783,7 @@
 
     .nl-form button:hover { opacity: .88; }
 
-    /* ─── PAGINATION ─────────────────────────────────────────── */
+    /* â”€â”€â”€ PAGINATION â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .pagination {
       display: flex;
       align-items: center;
@@ -811,7 +812,7 @@
     .page-btn.active     { background: linear-gradient(135deg, var(--kiara-purple), #9B8AFF); color: #fff; border-color: transparent; box-shadow: 0 4px 14px rgba(118,100,250,.3); }
     .page-btn.ellipsis   { border: none; background: transparent; cursor: default; }
 
-    /* ─── FOOTER ─────────────────────────────────────────────── */
+    /* â”€â”€â”€ FOOTER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     footer {
       background: var(--blue-900);
       border-top: 1px solid rgba(118,100,250,.15);
@@ -885,7 +886,7 @@
       background: rgba(118,100,250,.1);
     }
 
-    /* ─── RESPONSIVE ─────────────────────────────────────────── */
+    /* â”€â”€â”€ RESPONSIVE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     @media (max-width: 1024px) {
       .cards-grid        { grid-template-columns: repeat(2, 1fr); }
       .footer-top        { grid-template-columns: 1fr 1fr; gap: 36px; }
@@ -908,7 +909,7 @@
       .hero                  { padding: 60px 24px 72px; }
     }
 
-    /* ─── Card meta row (injected articles) ─────── */
+    /* â”€â”€â”€ Card meta row (injected articles) â”€â”€â”€â”€â”€â”€â”€ */
     .card-meta {
       display: flex;
       align-items: center;
@@ -935,7 +936,7 @@
       color: var(--gray-400);
     }
 
-    /* ─── Article Modal ──────────────────────────── */
+    /* â”€â”€â”€ Article Modal â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .modal-overlay {
       display: none;
       position: fixed;
@@ -1032,6 +1033,36 @@
       .modal-hero-img { height: 200px; }
       .modal-content  { padding: 28px 22px 38px; }
     }
+
+    /* FAQ + Related (modal + injected) */
+    .faq { margin-top:36px; border-top:1px solid var(--border); padding-top:24px; }
+    .faq-h { font-family:'Sora',sans-serif; font-size:19px; font-weight:800; color:var(--gray-900); margin-bottom:16px; }
+    .faq-item { margin-bottom:16px; }
+    .faq-q { font-family:'Sora',sans-serif; font-size:15px; font-weight:700; color:var(--gray-900); margin-bottom:6px; }
+    .faq-a { font-size:15px; line-height:1.7; color:var(--gray-700); }
+    .related { margin-top:36px; border-top:1px solid var(--border); padding-top:24px; }
+    .related-h { font-family:'Sora',sans-serif; font-size:13px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--kiara-purple); margin-bottom:14px; }
+    .related-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+    .related-card { display:flex; flex-direction:column; gap:8px; background:var(--bg-page); border:1px solid var(--border); border-radius:var(--radius-md); padding:14px; text-decoration:none; transition:var(--transition); }
+    .related-card:hover { box-shadow:var(--shadow-sm); transform:translateY(-2px); }
+    .related-tag { font-family:'Sora',sans-serif; font-size:10px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--kiara-purple); }
+    .related-title { font-family:'Sora',sans-serif; font-size:13px; font-weight:600; line-height:1.35; color:var(--gray-900); }
+    @media (max-width:768px){ .related-grid{ grid-template-columns:1fr; } }
+
+    /* Key takeaways + data table (modal + pages) */
+    .takeaways { background:rgba(118,100,250,.06); border:1px solid var(--border); border-left:4px solid var(--kiara-purple);
+      border-radius:var(--radius-md); padding:18px 22px; margin-bottom:30px; }
+    .takeaways-h { font-family:'Sora',sans-serif; font-size:13px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--kiara-purple); margin-bottom:10px; }
+    .takeaways-list { margin:0; padding-left:20px; }
+    .takeaways-list li { font-size:15px; line-height:1.6; color:var(--gray-700); margin-bottom:7px; }
+    .takeaways-list li:last-child { margin-bottom:0; }
+    .data-table { margin:30px 0 0; }
+    .data-table figcaption { font-family:'Sora',sans-serif; font-size:13px; font-weight:700; letter-spacing:.5px; text-transform:uppercase; color:var(--kiara-purple); margin-bottom:10px; }
+    .data-table table { width:100%; border-collapse:collapse; font-size:14px; }
+    .data-table th, .data-table td { text-align:left; padding:9px 12px; border:1px solid var(--border); }
+    .data-table th { background:rgba(118,100,250,.08); font-family:'Sora',sans-serif; font-weight:700; color:var(--gray-900); }
+    .data-table td { color:var(--gray-700); }
+    .data-table tbody tr:nth-child(even) { background:var(--gray-50); }
   </style>
   <style>
     .article-wrap { max-width: 760px; margin: 0 auto; padding: 48px 20px 72px; }
@@ -1055,7 +1086,7 @@
 <header>
   <div class="header-inner">
 
-    <a href="/" class="logo">
+    <a href="./" class="logo">
       <img src="logo-blue.svg" alt="Kiara Capital" class="logo-header-img" />
       <div class="logo-text-wrap" style="display:none">
       </div>
@@ -1091,11 +1122,11 @@
       </div>
       <h1 class="modal-title">Jeff Bezos Didn't Build Another AI Lab. He Built an AI-Powered Berkshire Hathaway.</h1>
       <div class="modal-body">
-<p>Jeff Bezos announced today that Prometheus raised $12 billion at a $41 billion valuation — from JPMorgan Chase, Goldman Sachs, BlackRock, DST Global, Arch Venture Partners, and Bezos himself. That investor list is the first precise signal. This is not venture capital. JPMorgan, Goldman, and BlackRock are industrial capital allocators, not growth equity shops. When institutional capital of that profile anchors a $12 billion round for an AI company, they are buying exposure to an asset class they understand: industrial operations at scale.</p>
-        <p>The "artificial general engineer" mission is specific. Prometheus is building AI trained on the physical laws of manufacturing — models that can design a jet engine, simulate material stress under load, plan an assembly line, and optimize factory throughput. Not as a service sold to manufacturers. As the operational intelligence Prometheus deploys inside the industrial companies it acquires and operates. The explicit model is Berkshire Hathaway: build a portfolio of manufacturing businesses, use Prometheus AI to run them more efficiently than anyone else can, and compound the operational advantage across every acquisition that follows.</p>
-        <p>The structural logic follows directly from Amazon. Bezos watched logistics and cloud infrastructure become more valuable than most of the customers they served — because whoever controls the operational layer underneath an industry can price the intelligence extracted from it. Prometheus applies the same architecture to manufacturing: the AI that makes industrial operations faster and cheaper is also the moat that makes those industrial businesses worth owning. JPMorgan, Goldman, and BlackRock aren't backing a model company. They're backing an industrial conglomerate that uses AI as its core production competency — which is why their checks look different from venture capital and why the Berkshire comparison isn't a metaphor.</p>
-        <p>The convergence this week makes the thesis impossible to dismiss as idiosyncratic. Mistral paid €330 million for 35 researchers to build Large Engineering Models on physical system data — €9.4 million per researcher. PhysicsX raised $300 million to replace ANSYS's $50,000-per-seat industrial simulation software with AI that runs in seconds. Flourish raised $500 million to decode the brain's neural algorithm for power-efficient inference. Prometheus at $12 billion is the largest bet and the most structurally distinctive: where the others are building capabilities to sell, Prometheus is building capabilities to own.</p>
-        <p>For founders in Brazil, the Prometheus announcement quantifies something the Mistral and PhysicsX deals established last week: the training data for physical AI doesn't exist in Silicon Valley. Brazil generates operational telemetry at a scale no American lab has trained on — from 10 million hectares of sugarcane harvest logistics, from pre-salt deepwater drilling formations in the Santos and Campos basins, from the Southern Hemisphere's largest urban freight network, from hydroelectric dispatch management for a grid that is 88% renewable. Prometheus is not coming for those datasets yet. The $41 billion valuation it just confirmed describes exactly what they will eventually be worth — and whether that value gets built locally or acquired from outside is still an open question with a closing window.</p>
+<p>Jeff Bezos announced today that Prometheus raised $12 billion at a $41 billion valuation â€” from JPMorgan Chase, Goldman Sachs, BlackRock, DST Global, Arch Venture Partners, and Bezos himself. That investor list is the first precise signal. This is not venture capital. JPMorgan, Goldman, and BlackRock are industrial capital allocators, not growth equity shops. When institutional capital of that profile anchors a $12 billion round for an AI company, they are buying exposure to an asset class they understand: industrial operations at scale.</p>
+        <p>The "artificial general engineer" mission is specific. Prometheus is building AI trained on the physical laws of manufacturing â€” models that can design a jet engine, simulate material stress under load, plan an assembly line, and optimize factory throughput. Not as a service sold to manufacturers. As the operational intelligence Prometheus deploys inside the industrial companies it acquires and operates. The explicit model is Berkshire Hathaway: build a portfolio of manufacturing businesses, use Prometheus AI to run them more efficiently than anyone else can, and compound the operational advantage across every acquisition that follows.</p>
+        <p>The structural logic follows directly from Amazon. Bezos watched logistics and cloud infrastructure become more valuable than most of the customers they served â€” because whoever controls the operational layer underneath an industry can price the intelligence extracted from it. Prometheus applies the same architecture to manufacturing: the AI that makes industrial operations faster and cheaper is also the moat that makes those industrial businesses worth owning. JPMorgan, Goldman, and BlackRock aren't backing a model company. They're backing an industrial conglomerate that uses AI as its core production competency â€” which is why their checks look different from venture capital and why the Berkshire comparison isn't a metaphor.</p>
+        <p>The convergence this week makes the thesis impossible to dismiss as idiosyncratic. Mistral paid â‚¬330 million for 35 researchers to build Large Engineering Models on physical system data â€” â‚¬9.4 million per researcher. PhysicsX raised $300 million to replace ANSYS's $50,000-per-seat industrial simulation software with AI that runs in seconds. Flourish raised $500 million to decode the brain's neural algorithm for power-efficient inference. Prometheus at $12 billion is the largest bet and the most structurally distinctive: where the others are building capabilities to sell, Prometheus is building capabilities to own.</p>
+        <p>For founders in Brazil, the Prometheus announcement quantifies something the Mistral and PhysicsX deals established last week: the training data for physical AI doesn't exist in Silicon Valley. Brazil generates operational telemetry at a scale no American lab has trained on â€” from 10 million hectares of sugarcane harvest logistics, from pre-salt deepwater drilling formations in the Santos and Campos basins, from the Southern Hemisphere's largest urban freight network, from hydroelectric dispatch management for a grid that is 88% renewable. Prometheus is not coming for those datasets yet. The $41 billion valuation it just confirmed describes exactly what they will eventually be worth â€” and whether that value gets built locally or acquired from outside is still an open question with a closing window.</p>
       </div>
     </div>
   </article>
@@ -1110,7 +1141,7 @@
     <div class="footer-top">
 
       <div>
-        <a href="/" class="logo footer-logo">
+        <a href="./" class="logo footer-logo">
           <div class="logo-icon">
         <img src="logo 800px.png" alt="Kiara Capital" style="width:68px;height:68px;object-fit:contain;" />
       </div>
@@ -1127,7 +1158,7 @@
 
     <div class="footer-bottom">
       <p class="footer-copy">
-        © 2026 Kiara Capital. All rights reserved. Content is for informational purposes only and does not constitute an offer of securities or investment advice.
+        Â© 2026 Kiara Capital. All rights reserved. Content is for informational purposes only and does not constitute an offer of securities or investment advice.
       </p>
     </div>
 

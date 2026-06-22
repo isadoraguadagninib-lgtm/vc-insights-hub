@@ -98,9 +98,9 @@
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
 
 <style>
-    /* ─── Design Tokens ──────────────────────────────────────── */
+    /* â”€â”€â”€ Design Tokens â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     :root {
-      /* Brand colors — Kiara Style Guide 2023 */
+      /* Brand colors â€” Kiara Style Guide 2023 */
       --kiara-purple:       #7664FA;   /* primary */
       --kiara-blue:         #49FADE;   /* secondary / cyan */
 
@@ -155,7 +155,7 @@
       --transition:         .22s cubic-bezier(.4,0,.2,1);
     }
 
-    /* ─── Reset ──────────────────────────────────────────────── */
+    /* â”€â”€â”€ Reset â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
 
@@ -171,7 +171,7 @@
     img { display: block; width: 100%; }
     a   { text-decoration: none; color: inherit; }
 
-    /* ─── Utility ────────────────────────────────────────────── */
+    /* â”€â”€â”€ Utility â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .gradient-text {
       background: linear-gradient(120deg, var(--kiara-purple), var(--kiara-blue));
       -webkit-background-clip: text;
@@ -179,7 +179,7 @@
       background-clip: text;
     }
 
-    /* ─── HEADER ─────────────────────────────────────────────── */
+    /* â”€â”€â”€ HEADER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     header {
       position: sticky;
       top: 0;
@@ -280,7 +280,7 @@
       box-shadow: 0 6px 20px rgba(118,100,250,.35);
     }
 
-    /* ─── HERO ───────────────────────────────────────────────── */
+    /* â”€â”€â”€ HERO â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .hero {
       background: var(--blue-900);
       padding: 88px 28px 96px;
@@ -440,7 +440,7 @@
       background: rgba(255,255,255,.1);
     }
 
-    /* ─── TOPICS BAR ─────────────────────────────────────────── */
+    /* â”€â”€â”€ TOPICS BAR â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .topics-bar {
       background: var(--white);
       border-bottom: 1px solid var(--gray-200);
@@ -482,7 +482,7 @@
       border-bottom-color: var(--kiara-purple);
     }
 
-    /* ─── MAIN ───────────────────────────────────────────────── */
+    /* â”€â”€â”€ MAIN â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .main {
       max-width: 1200px;
       margin: 0 auto;
@@ -533,7 +533,7 @@
 
 
 
-    /* ─── CARDS GRID ─────────────────────────────────────────── */
+    /* â”€â”€â”€ CARDS GRID â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .cards-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -566,6 +566,7 @@
     }
 
     .card-img img {
+      width: 100%;
       height: 100%;
       object-fit: cover;
       transition: transform .45s ease;
@@ -674,7 +675,7 @@
     .read-more:hover { gap: 9px; }
     .read-more i { font-size: 14px; }
 
-    /* ─── NEWSLETTER ─────────────────────────────────────────── */
+    /* â”€â”€â”€ NEWSLETTER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .newsletter {
       background: var(--blue-900);
       border-radius: var(--radius-lg);
@@ -782,7 +783,7 @@
 
     .nl-form button:hover { opacity: .88; }
 
-    /* ─── PAGINATION ─────────────────────────────────────────── */
+    /* â”€â”€â”€ PAGINATION â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .pagination {
       display: flex;
       align-items: center;
@@ -811,7 +812,7 @@
     .page-btn.active     { background: linear-gradient(135deg, var(--kiara-purple), #9B8AFF); color: #fff; border-color: transparent; box-shadow: 0 4px 14px rgba(118,100,250,.3); }
     .page-btn.ellipsis   { border: none; background: transparent; cursor: default; }
 
-    /* ─── FOOTER ─────────────────────────────────────────────── */
+    /* â”€â”€â”€ FOOTER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     footer {
       background: var(--blue-900);
       border-top: 1px solid rgba(118,100,250,.15);
@@ -885,7 +886,7 @@
       background: rgba(118,100,250,.1);
     }
 
-    /* ─── RESPONSIVE ─────────────────────────────────────────── */
+    /* â”€â”€â”€ RESPONSIVE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     @media (max-width: 1024px) {
       .cards-grid        { grid-template-columns: repeat(2, 1fr); }
       .footer-top        { grid-template-columns: 1fr 1fr; gap: 36px; }
@@ -908,7 +909,7 @@
       .hero                  { padding: 60px 24px 72px; }
     }
 
-    /* ─── Card meta row (injected articles) ─────── */
+    /* â”€â”€â”€ Card meta row (injected articles) â”€â”€â”€â”€â”€â”€â”€ */
     .card-meta {
       display: flex;
       align-items: center;
@@ -935,7 +936,7 @@
       color: var(--gray-400);
     }
 
-    /* ─── Article Modal ──────────────────────────── */
+    /* â”€â”€â”€ Article Modal â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .modal-overlay {
       display: none;
       position: fixed;
@@ -1032,6 +1033,36 @@
       .modal-hero-img { height: 200px; }
       .modal-content  { padding: 28px 22px 38px; }
     }
+
+    /* FAQ + Related (modal + injected) */
+    .faq { margin-top:36px; border-top:1px solid var(--border); padding-top:24px; }
+    .faq-h { font-family:'Sora',sans-serif; font-size:19px; font-weight:800; color:var(--gray-900); margin-bottom:16px; }
+    .faq-item { margin-bottom:16px; }
+    .faq-q { font-family:'Sora',sans-serif; font-size:15px; font-weight:700; color:var(--gray-900); margin-bottom:6px; }
+    .faq-a { font-size:15px; line-height:1.7; color:var(--gray-700); }
+    .related { margin-top:36px; border-top:1px solid var(--border); padding-top:24px; }
+    .related-h { font-family:'Sora',sans-serif; font-size:13px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--kiara-purple); margin-bottom:14px; }
+    .related-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+    .related-card { display:flex; flex-direction:column; gap:8px; background:var(--bg-page); border:1px solid var(--border); border-radius:var(--radius-md); padding:14px; text-decoration:none; transition:var(--transition); }
+    .related-card:hover { box-shadow:var(--shadow-sm); transform:translateY(-2px); }
+    .related-tag { font-family:'Sora',sans-serif; font-size:10px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--kiara-purple); }
+    .related-title { font-family:'Sora',sans-serif; font-size:13px; font-weight:600; line-height:1.35; color:var(--gray-900); }
+    @media (max-width:768px){ .related-grid{ grid-template-columns:1fr; } }
+
+    /* Key takeaways + data table (modal + pages) */
+    .takeaways { background:rgba(118,100,250,.06); border:1px solid var(--border); border-left:4px solid var(--kiara-purple);
+      border-radius:var(--radius-md); padding:18px 22px; margin-bottom:30px; }
+    .takeaways-h { font-family:'Sora',sans-serif; font-size:13px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--kiara-purple); margin-bottom:10px; }
+    .takeaways-list { margin:0; padding-left:20px; }
+    .takeaways-list li { font-size:15px; line-height:1.6; color:var(--gray-700); margin-bottom:7px; }
+    .takeaways-list li:last-child { margin-bottom:0; }
+    .data-table { margin:30px 0 0; }
+    .data-table figcaption { font-family:'Sora',sans-serif; font-size:13px; font-weight:700; letter-spacing:.5px; text-transform:uppercase; color:var(--kiara-purple); margin-bottom:10px; }
+    .data-table table { width:100%; border-collapse:collapse; font-size:14px; }
+    .data-table th, .data-table td { text-align:left; padding:9px 12px; border:1px solid var(--border); }
+    .data-table th { background:rgba(118,100,250,.08); font-family:'Sora',sans-serif; font-weight:700; color:var(--gray-900); }
+    .data-table td { color:var(--gray-700); }
+    .data-table tbody tr:nth-child(even) { background:var(--gray-50); }
   </style>
   <style>
     .article-wrap { max-width: 760px; margin: 0 auto; padding: 48px 20px 72px; }
@@ -1055,7 +1086,7 @@
 <header>
   <div class="header-inner">
 
-    <a href="/" class="logo">
+    <a href="./" class="logo">
       <img src="logo-blue.svg" alt="Kiara Capital" class="logo-header-img" />
       <div class="logo-text-wrap" style="display:none">
       </div>
@@ -1079,7 +1110,7 @@
 
   <article class="article-panel">
     <div class="modal-hero-img">
-      <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="Franq R$70 milhões Série B independent banker fintech distribution Brazil Valor Capital Quona" />
+      <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="Franq R$70 milhÃµes SÃ©rie B independent banker fintech distribution Brazil Valor Capital Quona" />
     </div>
     <div class="modal-content">
       <div class="modal-meta">
@@ -1091,11 +1122,11 @@
       </div>
       <h1 class="modal-title">Franq Raised R$70M on the Thesis That Financial Distribution Beats Financial Products</h1>
       <div class="modal-body">
-<p>The Brazilian fintech decade was built on product innovation: better checking accounts, cheaper FX, lower credit rates, zero-fee investments. Nubank, C6, Inter, Neon — all product-led challengers disrupting incumbent banks at the feature layer. The implicit assumption behind each of those bets was that superior products would find distribution through digital channels without a dedicated distribution layer. Franq's R$70 million Series B, led by Valor Capital Growth Fund, Quona Capital, and Globo Ventures, is a bet that the product era is peaking and that whoever controls distribution in the next cycle captures the structural advantage the product leaders have been relying on for free.</p>
-        <p>Franq's architecture is distinct from both the BaaS and neobank models that defined the last cycle. Independent bankers — registered as autonomous financial agents with the CVM — use Franq's platform to access and sell 150 financial products across 50 partner banks and fintechs: accounts, credit, investments, insurance, payments. They are not employees. They are entrepreneurs with product access. Franq handles compliance, technology, onboarding, and back-office operations. The banker handles the relationship layer: the trust accumulated over years with a customer who asks for advice before making any meaningful financial decision. The company was founded in 2019 and has now raised over $24 million total — a capital-efficient trajectory that indicates the model works before the round designed to scale it.</p>
-        <p>The timing against Brazil's regulatory cycle creates a structural tailwind the original thesis didn't require. Joint Resolution No. 16 tightens every BaaS relationship in Brazil by December 2026 — raising compliance costs and supervisory obligations for fintechs that distribute financial products through licensed bank infrastructure. Franq's model sits outside that regulatory perimeter: CVM-registered autonomous agents are governed by a different framework than the bank-fintech BaaS relationships Joint Resolution 16 targets. As institutional BaaS distribution becomes more expensive and compliance-intensive, the independent agent channel becomes relatively more attractive. Franq didn't design this advantage. The regulatory architecture created it.</p>
-        <p>The data position is the asset being underpriced in the round narrative. Franq sits between 150 financial products and the professionals who sell them. It observes which products close in which customer segments, which features drive conversion at the point of human relationship, and which pricing structures work in markets where a trusted advisor's credibility is the actual product being sold. That distribution intelligence — a continuous readout of what Brazilians actually buy and why, through a channel that no neobank's digital funnel reaches — has structural value beyond the commission revenue it generates. A financial institution that partners with Franq for distribution gets a real-time signal about product-market fit at the human layer. That signal is not available through any API.</p>
-        <p>The open question is the one that faces every aggregation play in financial services: whether the institutions Franq aggregates will eventually decide to own the distribution channel they are currently subsidizing. Nubank already runs referral programs. C6 and Inter operate their own agent networks. The defense for Franq is architecturally coherent: the independent banker model works because independence is the product — the advisor's value to clients depends on not being captive to any single institution. Franq's platform preserves that independence while providing the infrastructure that makes it economically viable. That structure is defensible until the institutions on its platform decide the independence premium is worth paying to control rather than participate in. How long that takes is the tension worth tracking, starting from a Series B that just confirmed the model is real.</p>
+<p>The Brazilian fintech decade was built on product innovation: better checking accounts, cheaper FX, lower credit rates, zero-fee investments. Nubank, C6, Inter, Neon â€” all product-led challengers disrupting incumbent banks at the feature layer. The implicit assumption behind each of those bets was that superior products would find distribution through digital channels without a dedicated distribution layer. Franq's R$70 million Series B, led by Valor Capital Growth Fund, Quona Capital, and Globo Ventures, is a bet that the product era is peaking and that whoever controls distribution in the next cycle captures the structural advantage the product leaders have been relying on for free.</p>
+        <p>Franq's architecture is distinct from both the BaaS and neobank models that defined the last cycle. Independent bankers â€” registered as autonomous financial agents with the CVM â€” use Franq's platform to access and sell 150 financial products across 50 partner banks and fintechs: accounts, credit, investments, insurance, payments. They are not employees. They are entrepreneurs with product access. Franq handles compliance, technology, onboarding, and back-office operations. The banker handles the relationship layer: the trust accumulated over years with a customer who asks for advice before making any meaningful financial decision. The company was founded in 2019 and has now raised over $24 million total â€” a capital-efficient trajectory that indicates the model works before the round designed to scale it.</p>
+        <p>The timing against Brazil's regulatory cycle creates a structural tailwind the original thesis didn't require. Joint Resolution No. 16 tightens every BaaS relationship in Brazil by December 2026 â€” raising compliance costs and supervisory obligations for fintechs that distribute financial products through licensed bank infrastructure. Franq's model sits outside that regulatory perimeter: CVM-registered autonomous agents are governed by a different framework than the bank-fintech BaaS relationships Joint Resolution 16 targets. As institutional BaaS distribution becomes more expensive and compliance-intensive, the independent agent channel becomes relatively more attractive. Franq didn't design this advantage. The regulatory architecture created it.</p>
+        <p>The data position is the asset being underpriced in the round narrative. Franq sits between 150 financial products and the professionals who sell them. It observes which products close in which customer segments, which features drive conversion at the point of human relationship, and which pricing structures work in markets where a trusted advisor's credibility is the actual product being sold. That distribution intelligence â€” a continuous readout of what Brazilians actually buy and why, through a channel that no neobank's digital funnel reaches â€” has structural value beyond the commission revenue it generates. A financial institution that partners with Franq for distribution gets a real-time signal about product-market fit at the human layer. That signal is not available through any API.</p>
+        <p>The open question is the one that faces every aggregation play in financial services: whether the institutions Franq aggregates will eventually decide to own the distribution channel they are currently subsidizing. Nubank already runs referral programs. C6 and Inter operate their own agent networks. The defense for Franq is architecturally coherent: the independent banker model works because independence is the product â€” the advisor's value to clients depends on not being captive to any single institution. Franq's platform preserves that independence while providing the infrastructure that makes it economically viable. That structure is defensible until the institutions on its platform decide the independence premium is worth paying to control rather than participate in. How long that takes is the tension worth tracking, starting from a Series B that just confirmed the model is real.</p>
       </div>
     </div>
   </article>
@@ -1110,7 +1141,7 @@
     <div class="footer-top">
 
       <div>
-        <a href="/" class="logo footer-logo">
+        <a href="./" class="logo footer-logo">
           <div class="logo-icon">
         <img src="logo 800px.png" alt="Kiara Capital" style="width:68px;height:68px;object-fit:contain;" />
       </div>
@@ -1127,7 +1158,7 @@
 
     <div class="footer-bottom">
       <p class="footer-copy">
-        © 2026 Kiara Capital. All rights reserved. Content is for informational purposes only and does not constitute an offer of securities or investment advice.
+        Â© 2026 Kiara Capital. All rights reserved. Content is for informational purposes only and does not constitute an offer of securities or investment advice.
       </p>
     </div>
 

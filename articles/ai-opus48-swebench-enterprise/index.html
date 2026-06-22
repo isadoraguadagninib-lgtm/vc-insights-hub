@@ -98,9 +98,9 @@
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
 
 <style>
-    /* ─── Design Tokens ──────────────────────────────────────── */
+    /* â”€â”€â”€ Design Tokens â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     :root {
-      /* Brand colors — Kiara Style Guide 2023 */
+      /* Brand colors â€” Kiara Style Guide 2023 */
       --kiara-purple:       #7664FA;   /* primary */
       --kiara-blue:         #49FADE;   /* secondary / cyan */
 
@@ -155,7 +155,7 @@
       --transition:         .22s cubic-bezier(.4,0,.2,1);
     }
 
-    /* ─── Reset ──────────────────────────────────────────────── */
+    /* â”€â”€â”€ Reset â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
 
@@ -171,7 +171,7 @@
     img { display: block; width: 100%; }
     a   { text-decoration: none; color: inherit; }
 
-    /* ─── Utility ────────────────────────────────────────────── */
+    /* â”€â”€â”€ Utility â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .gradient-text {
       background: linear-gradient(120deg, var(--kiara-purple), var(--kiara-blue));
       -webkit-background-clip: text;
@@ -179,7 +179,7 @@
       background-clip: text;
     }
 
-    /* ─── HEADER ─────────────────────────────────────────────── */
+    /* â”€â”€â”€ HEADER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     header {
       position: sticky;
       top: 0;
@@ -280,7 +280,7 @@
       box-shadow: 0 6px 20px rgba(118,100,250,.35);
     }
 
-    /* ─── HERO ───────────────────────────────────────────────── */
+    /* â”€â”€â”€ HERO â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .hero {
       background: var(--blue-900);
       padding: 88px 28px 96px;
@@ -440,7 +440,7 @@
       background: rgba(255,255,255,.1);
     }
 
-    /* ─── TOPICS BAR ─────────────────────────────────────────── */
+    /* â”€â”€â”€ TOPICS BAR â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .topics-bar {
       background: var(--white);
       border-bottom: 1px solid var(--gray-200);
@@ -482,7 +482,7 @@
       border-bottom-color: var(--kiara-purple);
     }
 
-    /* ─── MAIN ───────────────────────────────────────────────── */
+    /* â”€â”€â”€ MAIN â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .main {
       max-width: 1200px;
       margin: 0 auto;
@@ -533,7 +533,7 @@
 
 
 
-    /* ─── CARDS GRID ─────────────────────────────────────────── */
+    /* â”€â”€â”€ CARDS GRID â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .cards-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -566,6 +566,7 @@
     }
 
     .card-img img {
+      width: 100%;
       height: 100%;
       object-fit: cover;
       transition: transform .45s ease;
@@ -674,7 +675,7 @@
     .read-more:hover { gap: 9px; }
     .read-more i { font-size: 14px; }
 
-    /* ─── NEWSLETTER ─────────────────────────────────────────── */
+    /* â”€â”€â”€ NEWSLETTER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .newsletter {
       background: var(--blue-900);
       border-radius: var(--radius-lg);
@@ -782,7 +783,7 @@
 
     .nl-form button:hover { opacity: .88; }
 
-    /* ─── PAGINATION ─────────────────────────────────────────── */
+    /* â”€â”€â”€ PAGINATION â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .pagination {
       display: flex;
       align-items: center;
@@ -811,7 +812,7 @@
     .page-btn.active     { background: linear-gradient(135deg, var(--kiara-purple), #9B8AFF); color: #fff; border-color: transparent; box-shadow: 0 4px 14px rgba(118,100,250,.3); }
     .page-btn.ellipsis   { border: none; background: transparent; cursor: default; }
 
-    /* ─── FOOTER ─────────────────────────────────────────────── */
+    /* â”€â”€â”€ FOOTER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     footer {
       background: var(--blue-900);
       border-top: 1px solid rgba(118,100,250,.15);
@@ -885,7 +886,7 @@
       background: rgba(118,100,250,.1);
     }
 
-    /* ─── RESPONSIVE ─────────────────────────────────────────── */
+    /* â”€â”€â”€ RESPONSIVE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     @media (max-width: 1024px) {
       .cards-grid        { grid-template-columns: repeat(2, 1fr); }
       .footer-top        { grid-template-columns: 1fr 1fr; gap: 36px; }
@@ -908,7 +909,7 @@
       .hero                  { padding: 60px 24px 72px; }
     }
 
-    /* ─── Card meta row (injected articles) ─────── */
+    /* â”€â”€â”€ Card meta row (injected articles) â”€â”€â”€â”€â”€â”€â”€ */
     .card-meta {
       display: flex;
       align-items: center;
@@ -935,7 +936,7 @@
       color: var(--gray-400);
     }
 
-    /* ─── Article Modal ──────────────────────────── */
+    /* â”€â”€â”€ Article Modal â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .modal-overlay {
       display: none;
       position: fixed;
@@ -1032,6 +1033,36 @@
       .modal-hero-img { height: 200px; }
       .modal-content  { padding: 28px 22px 38px; }
     }
+
+    /* FAQ + Related (modal + injected) */
+    .faq { margin-top:36px; border-top:1px solid var(--border); padding-top:24px; }
+    .faq-h { font-family:'Sora',sans-serif; font-size:19px; font-weight:800; color:var(--gray-900); margin-bottom:16px; }
+    .faq-item { margin-bottom:16px; }
+    .faq-q { font-family:'Sora',sans-serif; font-size:15px; font-weight:700; color:var(--gray-900); margin-bottom:6px; }
+    .faq-a { font-size:15px; line-height:1.7; color:var(--gray-700); }
+    .related { margin-top:36px; border-top:1px solid var(--border); padding-top:24px; }
+    .related-h { font-family:'Sora',sans-serif; font-size:13px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--kiara-purple); margin-bottom:14px; }
+    .related-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+    .related-card { display:flex; flex-direction:column; gap:8px; background:var(--bg-page); border:1px solid var(--border); border-radius:var(--radius-md); padding:14px; text-decoration:none; transition:var(--transition); }
+    .related-card:hover { box-shadow:var(--shadow-sm); transform:translateY(-2px); }
+    .related-tag { font-family:'Sora',sans-serif; font-size:10px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--kiara-purple); }
+    .related-title { font-family:'Sora',sans-serif; font-size:13px; font-weight:600; line-height:1.35; color:var(--gray-900); }
+    @media (max-width:768px){ .related-grid{ grid-template-columns:1fr; } }
+
+    /* Key takeaways + data table (modal + pages) */
+    .takeaways { background:rgba(118,100,250,.06); border:1px solid var(--border); border-left:4px solid var(--kiara-purple);
+      border-radius:var(--radius-md); padding:18px 22px; margin-bottom:30px; }
+    .takeaways-h { font-family:'Sora',sans-serif; font-size:13px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--kiara-purple); margin-bottom:10px; }
+    .takeaways-list { margin:0; padding-left:20px; }
+    .takeaways-list li { font-size:15px; line-height:1.6; color:var(--gray-700); margin-bottom:7px; }
+    .takeaways-list li:last-child { margin-bottom:0; }
+    .data-table { margin:30px 0 0; }
+    .data-table figcaption { font-family:'Sora',sans-serif; font-size:13px; font-weight:700; letter-spacing:.5px; text-transform:uppercase; color:var(--kiara-purple); margin-bottom:10px; }
+    .data-table table { width:100%; border-collapse:collapse; font-size:14px; }
+    .data-table th, .data-table td { text-align:left; padding:9px 12px; border:1px solid var(--border); }
+    .data-table th { background:rgba(118,100,250,.08); font-family:'Sora',sans-serif; font-weight:700; color:var(--gray-900); }
+    .data-table td { color:var(--gray-700); }
+    .data-table tbody tr:nth-child(even) { background:var(--gray-50); }
   </style>
   <style>
     .article-wrap { max-width: 760px; margin: 0 auto; padding: 48px 20px 72px; }
@@ -1055,7 +1086,7 @@
 <header>
   <div class="header-inner">
 
-    <a href="/" class="logo">
+    <a href="./" class="logo">
       <img src="logo-blue.svg" alt="Kiara Capital" class="logo-header-img" />
       <div class="logo-text-wrap" style="display:none">
       </div>
@@ -1092,11 +1123,11 @@
       <h1 class="modal-title">69 Percent on SWE-Bench Pro. For Enterprise Software, That Number Changes the Build-vs-Buy Calculation.</h1>
       <div class="modal-body">
 <p>Claude Opus 4.8 completed 69.2% of real software engineering tasks in SWE-Bench Pro autonomously, with no human guidance per task. That isn't a benchmark curiosity. It's a data point that changes what CFOs and engineering leaders should think about when approving software development budgets.</p>
-        <p>The model released May 28 and immediately took the top position on the Artificial Analysis Intelligence Index at 61.4 — 1.2 points ahead of GPT-5.5, 4.1 ahead of its predecessor Opus 4.7. It leads in coding, agentic workflows, and reasoning simultaneously. On the GDPval-AA leaderboard it opened at 1890 Elo, implying a 67% win rate against GPT-5.5 in head-to-head task completion. Anthropic released it at the same price as Opus 4.7. The capability-per-dollar ratio in enterprise software tasks moved sharply in a single release cycle.</p>
-        <p>The SWE-Bench Pro methodology matters for context. The benchmark uses real GitHub issues from production codebases — not toy problems or synthetic examples — and measures whether the model can patch the code correctly without test-suite leakage or case-specific tailoring. At 69.2%, Opus 4.8 is approaching the category threshold where autonomous task completion becomes the design assumption, not the exception. At 50% accuracy, you design workflows around human review of AI-generated code. At 70%, you start designing around human exception handling of AI failures. The workflow architecture changes — and so does the headcount model underneath it.</p>
-        <p>Build-vs-buy decisions have historically been calculated against the cost of a human engineering team. When an AI agent completes 7 in 10 engineering tasks correctly, the cost of the build option changes. Not because engineers disappear — they remain essential for architecture, judgment, and the 31% of tasks the model gets wrong — but because the productivity multiplier changes what a 10-person team can accomplish. Enterprise software vendor pricing has been built on the assumption that internal development is slow and expensive. That assumption is weakening faster than most enterprise software pricing models account for.</p>
-        <p>Anthropic's commercial context makes the benchmark concrete. The $47 billion ARR disclosed alongside the $65 billion raise is driven by enterprise and developer API consumption — mostly production deployments of coding and agentic workflows. The benchmark isn't an academic exercise. It's the product metric that drives the enterprise sales motion. When Opus 4.8 moves from 64.3% on SWE-Bench Pro to 69.2%, existing enterprise customers consuming coding workflow API calls see the improvement in their production pipelines within the same billing cycle. The leaderboard ranking is the release note.</p>
-        <p>The model war narrative — Anthropic vs. OpenAI vs. Google vs. xAI — is real but secondary. The primary signal from SWE-Bench Pro at 69% is structural: the cost of building software is changing in a direction that favors whoever owns the specification and integration layers rather than whoever executes the code. Every software category that assumed expensive human execution as a structural moat needs a revised model — and the revision is already overdue.</p>
+        <p>The model released May 28 and immediately took the top position on the Artificial Analysis Intelligence Index at 61.4 â€” 1.2 points ahead of GPT-5.5, 4.1 ahead of its predecessor Opus 4.7. It leads in coding, agentic workflows, and reasoning simultaneously. On the GDPval-AA leaderboard it opened at 1890 Elo, implying a 67% win rate against GPT-5.5 in head-to-head task completion. Anthropic released it at the same price as Opus 4.7. The capability-per-dollar ratio in enterprise software tasks moved sharply in a single release cycle.</p>
+        <p>The SWE-Bench Pro methodology matters for context. The benchmark uses real GitHub issues from production codebases â€” not toy problems or synthetic examples â€” and measures whether the model can patch the code correctly without test-suite leakage or case-specific tailoring. At 69.2%, Opus 4.8 is approaching the category threshold where autonomous task completion becomes the design assumption, not the exception. At 50% accuracy, you design workflows around human review of AI-generated code. At 70%, you start designing around human exception handling of AI failures. The workflow architecture changes â€” and so does the headcount model underneath it.</p>
+        <p>Build-vs-buy decisions have historically been calculated against the cost of a human engineering team. When an AI agent completes 7 in 10 engineering tasks correctly, the cost of the build option changes. Not because engineers disappear â€” they remain essential for architecture, judgment, and the 31% of tasks the model gets wrong â€” but because the productivity multiplier changes what a 10-person team can accomplish. Enterprise software vendor pricing has been built on the assumption that internal development is slow and expensive. That assumption is weakening faster than most enterprise software pricing models account for.</p>
+        <p>Anthropic's commercial context makes the benchmark concrete. The $47 billion ARR disclosed alongside the $65 billion raise is driven by enterprise and developer API consumption â€” mostly production deployments of coding and agentic workflows. The benchmark isn't an academic exercise. It's the product metric that drives the enterprise sales motion. When Opus 4.8 moves from 64.3% on SWE-Bench Pro to 69.2%, existing enterprise customers consuming coding workflow API calls see the improvement in their production pipelines within the same billing cycle. The leaderboard ranking is the release note.</p>
+        <p>The model war narrative â€” Anthropic vs. OpenAI vs. Google vs. xAI â€” is real but secondary. The primary signal from SWE-Bench Pro at 69% is structural: the cost of building software is changing in a direction that favors whoever owns the specification and integration layers rather than whoever executes the code. Every software category that assumed expensive human execution as a structural moat needs a revised model â€” and the revision is already overdue.</p>
       </div>
     </div>
   </article>
@@ -1111,7 +1142,7 @@
     <div class="footer-top">
 
       <div>
-        <a href="/" class="logo footer-logo">
+        <a href="./" class="logo footer-logo">
           <div class="logo-icon">
         <img src="logo 800px.png" alt="Kiara Capital" style="width:68px;height:68px;object-fit:contain;" />
       </div>
@@ -1128,7 +1159,7 @@
 
     <div class="footer-bottom">
       <p class="footer-copy">
-        © 2026 Kiara Capital. All rights reserved. Content is for informational purposes only and does not constitute an offer of securities or investment advice.
+        Â© 2026 Kiara Capital. All rights reserved. Content is for informational purposes only and does not constitute an offer of securities or investment advice.
       </p>
     </div>
 
