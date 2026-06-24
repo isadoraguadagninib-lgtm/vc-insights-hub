@@ -23,3 +23,12 @@ ehthumbs.db
 kiara-project/
 kiara-site/
 kiara-site-v2/
+
+# Internal docs and build scripts (live in kiara-project/ only)
+BRAND.md
+CLAUDE.md
+MAINTENANCE.md
+PROJECT-MEMORY.md
+README.md
+TONE_GUIDE.md
+generate.js
