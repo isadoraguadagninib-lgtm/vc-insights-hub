@@ -1101,6 +1101,87 @@
 
   <div class="cards-grid" id="articles-grid">
 
+    <!-- Article — Regulation · June 27 2026 -->
+    <article class="card" data-article="reg-mythos5-sovereign-ai">
+      <a href="articles/reg-mythos5-sovereign-ai/" class="card-img-link">
+        <div class="card-img">
+          <img
+            src="https://images.unsplash.com/photo-1550751827-4bd374173312?w=800&q=80&auto=format&fit=crop"
+            alt="US government export control Anthropic Fable 5 Mythos 5 shutdown frontier AI sovereign risk regulation"
+            width="800" height="450" decoding="async"
+            onerror="this.setAttribute('data-error','1');this.style.display='none'"
+            loading="lazy"
+          />
+        </div>
+      </a>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag">Regulation</span>
+          <span class="dot">·</span>
+          <time>June 27, 2026</time>
+          <span class="dot">·</span>
+          <span>5 min read</span>
+        </div>
+        <h2 class="card-title">The Government Pulled the Plug on the World's Most Capable AI Models for 15 Days. Yesterday It Turned One Back On for 100 Companies.</h2>
+        <p class="card-excerpt">On June 12, the US Commerce Department forced Anthropic to shut down Fable 5 and Mythos 5 globally — including for Anthropic's own non-citizen employees. On June 26, Mythos 5 was partially restored for ~100 approved US institutions. A new sovereign tier of AI access now exists, and nobody outside the government controls who qualifies.</p>
+        <a href="articles/reg-mythos5-sovereign-ai/" class="read-more" data-article="reg-mythos5-sovereign-ai">Read article <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </article>
+
+    <!-- Article — Artificial Intelligence · June 27 2026 -->
+    <article class="card" data-article="ai-anthropic-vertical-expansion">
+      <a href="articles/ai-anthropic-vertical-expansion/" class="card-img-link">
+        <div class="card-img">
+          <img
+            src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80&auto=format&fit=crop"
+            alt="Anthropic Claude Code Design Cowork Life Sciences vertical product expansion enterprise software categories"
+            width="800" height="450" decoding="async"
+            onerror="this.setAttribute('data-error','1');this.style.display='none'"
+            loading="lazy"
+          />
+        </div>
+      </a>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag">Artificial Intelligence</span>
+          <span class="dot">·</span>
+          <time>June 27, 2026</time>
+          <span class="dot">·</span>
+          <span>5 min read</span>
+        </div>
+        <h2 class="card-title">Claude Is No Longer a Model. Anthropic Released Four Vertical Products This Quarter, and Each One Sent a Sector's Stock Down.</h2>
+        <p class="card-excerpt">Claude Code ate software development. Claude Design sent Figma down 7% on launch day. Claude Cowork targets productivity. Claude for Life Sciences targets scientific R&D. Anthropic isn't building an API — it's building an office suite, and the companies in those categories now have a competitor who doesn't need to monetize the product to justify the investment.</p>
+        <a href="articles/ai-anthropic-vertical-expansion/" class="read-more" data-article="ai-anthropic-vertical-expansion">Read article <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </article>
+
+    <!-- Article — Startups · June 27 2026 -->
+    <article class="card" data-article="startups-telepatia-latam-healthtech">
+      <a href="articles/startups-telepatia-latam-healthtech/" class="card-img-link">
+        <div class="card-img">
+          <img
+            src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80&auto=format&fit=crop"
+            alt="Telepatia a16z Series A Brazil Colombia Mexico AI clinical platform healthtech 14 million patients"
+            width="800" height="450" decoding="async"
+            onerror="this.setAttribute('data-error','1');this.style.display='none'"
+            loading="lazy"
+          />
+        </div>
+      </a>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag">Startups</span>
+          <span class="dot">·</span>
+          <time>June 27, 2026</time>
+          <span class="dot">·</span>
+          <span>4 min read</span>
+        </div>
+        <h2 class="card-title">The Founder's Father Was a Doctor in Colombia Who Died at 58 from a Drug Interaction AI Could Have Caught. a16z Just Led the Series A.</h2>
+        <p class="card-excerpt">Telepatia raised $33 million from Andreessen Horowitz, Palantir CTO Shyam Sankar, Rappi founder Simón Borrero, and Nubank founder David Vélez. In eight months it deployed across 25+ hospital systems in Brazil, Colombia, and Mexico, prevented 60,000 medical errors, and returned 1.7 hours of physician time daily. The founder didn't pivot into healthcare. He built the product that could have saved his father.</p>
+        <a href="articles/startups-telepatia-latam-healthtech/" class="read-more" data-article="startups-telepatia-latam-healthtech">Read article <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </article>
+
     <!-- Article — Financial Innovation · June 26 2026 -->
     <article class="card" data-article="fi-taktile-agentic-decisioning-110m">
       <a href="articles/fi-taktile-agentic-decisioning-110m/" class="card-img-link">
@@ -2655,6 +2736,48 @@
 
   /* ── Article Modal ──────────────────────────────── */
   const ARTICLES = {
+    'reg-mythos5-sovereign-ai': {
+      tag: 'Regulation',
+      date: 'June 27, 2026',
+      readtime: '5 min read',
+      img: 'https://images.unsplash.com/photo-1550751827-4bd374173312?w=1200&q=80&auto=format&fit=crop',
+      title: "The Government Pulled the Plug on the World's Most Capable AI Models for 15 Days. Yesterday It Turned One Back On for 100 Companies.",
+      body: `
+        <p>On June 12 at 5:21pm ET, Anthropic received a legally binding US government export control directive and disabled Claude Fable 5 and Mythos 5 for every customer worldwide. The models had launched three days earlier. The trigger was a report from Amazon CEO Andy Jassy to Treasury Secretary Scott Bessent about a jailbreak technique that could unlock Mythos 5's advanced cybersecurity capabilities through Fable 5. Anthropic said it believed the concern was a misunderstanding. The directive was binding regardless.</p>
+        <p>The scope of the order is what makes it unprecedented. The government required Anthropic to suspend access not only for foreign nationals outside the US, but for foreign national employees working inside Anthropic's own offices. No carve-out for ongoing enterprise contracts. No grace period for customers running production systems. No distinction between API access and consumer products. Every deployment — medical, legal, financial, commercial — went dark simultaneously. This is the first time the US government has used export control authority to withdraw a commercially deployed AI model from a global market mid-deployment.</p>
+        <p>On June 26, the US Commerce Department granted Anthropic permission to restore Mythos 5 for roughly 100 approved companies and federal agencies. Commerce Secretary Howard Lutnick communicated the decision in a letter to Anthropic's chief compute officer. The letter grants access specifically for companies that operate and defend critical infrastructure. Fable 5 remains unavailable as of today. What the partial restoration reveals is the architecture of a new access framework: a tiered system in which the US government functions as the certifying authority for who can use frontier AI and under what conditions.</p>
+        <p>Enterprise software companies that built production systems on Fable 5 discovered, in real time, that their infrastructure has a dimension of risk with no analogue in the history of software. A database vendor can go bankrupt. A cloud provider can have outages. A regulatory shutdown that applies globally, instantly, and at government directive is a different category of counterparty risk entirely. The 15-day blackout will not be the last instance of this mechanism. The Mythos 5 framework — approved institutions, critical infrastructure focus, government-controlled access — is a template for how the US plans to manage frontier AI export risk going forward. AI companies building in verticals with national security adjacency should assume this framework will be applied to them.</p>
+        <p>The right frame for investors is not "will AI get regulated" but "in what currency will AI access be denominated." The Mythos 5 restoration creates a trusted-partner tier for frontier AI — a credential issued by a government department, not a vendor. That credential has value that scales with the capability of the underlying model. The companies with approved access to Mythos 5 now hold a competitive advantage that cannot be purchased, only granted. Whether this was the intended design of the policy or an accidental consequence matters less than the structural reality it creates: governments are becoming the gatekeepers of AI advantage, and the precedent was set this week.</p>
+      `
+    },
+    'ai-anthropic-vertical-expansion': {
+      tag: 'Artificial Intelligence',
+      date: 'June 27, 2026',
+      readtime: '5 min read',
+      img: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80&auto=format&fit=crop',
+      title: "Claude Is No Longer a Model. Anthropic Released Four Vertical Products This Quarter, and Each One Sent a Sector's Stock Down.",
+      body: `
+        <p>When Claude Design launched in April, Figma shares fell 7% within hours and Adobe slid 1.5%. When Claude Code became widely available earlier this year, GitHub Copilot's position as the default AI coding assistant became structurally complicated. Claude Cowork targets enterprise productivity — the space where Microsoft Copilot and Notion AI compete. Claude for Life Sciences targets scientific R&D — the workflows that Benchling, Dotmatics, and Schrödinger built entire companies around. Four vertical products, four distinct software markets, all running on the same underlying model. This isn't a product roadmap. It's a thesis about what Anthropic actually is.</p>
+        <p>The traditional AI threat to enterprise software was indirect: a foundation model API becomes available, startups build on it, incumbents face better-funded challengers. Anthropic's vertical expansion eliminates the intermediary startup entirely. The model lab itself builds the vertical application, runs it on the same infrastructure it uses for API customers, and prices it at a point that makes dedicated vertical tools hard to justify. Anthropic doesn't need the vertical products to be profitable at launch. The company is capitalized at a $965 billion valuation. The vertical products are customer acquisition and enterprise lock-in, not revenue lines — at least for now.</p>
+        <p>This raises the hardest question in any application-layer investment thesis directly: when the model lab itself occupies the application layer, what is the defensible position for application-layer startups? The answer, so far, is the same one that held through previous platform transitions — distribution, deep workflow integration, and proprietary data. Anthropic can build a general clinical documentation tool. It cannot build a tool that has been trained on 14 million patient records across 25 hospital systems in Brazil, Colombia, and Mexico. The data moat is the only response to the Anthropic expansion that actually works. General capability without proprietary data is not a moat — it's a commodity.</p>
+        <p>The rate of expansion matters as much as the direction. Claude Code went from launch to widespread enterprise adoption faster than any developer tool in recent history. Claude Design sent Figma into a stock decline on the day of announcement, before enterprise buyers had time to evaluate the product. The pattern suggests Anthropic's go-to-market strategy for vertical products is deliberately aggressive: announce, deploy, and establish distribution before incumbents can respond strategically. The enterprise software companies in Anthropic's path are forced to respond in real time, which means their counter-moves are reactive by definition.</p>
+        <p>The question for investors is now two-part. First: which verticals will Anthropic not enter? The answer appears to be those requiring deep domain expertise that general model capability cannot approximate — highly regulated workflows with proprietary data, hyperlocal markets with specific compliance requirements, verticals where embedded workflow switching costs exceed any model quality advantage. Second: which companies building on Claude have enough of their own data and distribution to survive Anthropic competing directly in their category? The startups that can answer both questions honestly have a clearer path than most. The ones that cannot should be asking whether their application-layer moat was ever real.</p>
+      `
+    },
+    'startups-telepatia-latam-healthtech': {
+      tag: 'Startups',
+      date: 'June 27, 2026',
+      readtime: '4 min read',
+      img: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&q=80&auto=format&fit=crop',
+      title: "The Founder's Father Was a Doctor in Colombia Who Died at 58 from a Drug Interaction AI Could Have Caught. a16z Just Led the Series A.",
+      body: `
+        <p>When a16z announced its investment in Telepatia, the firm's tweet didn't open with TAM or ARR. It opened with this: "Nicolás's father was a physician in Colombia who died at 58 from a drug interaction AI could have flagged in seconds." Telepatia raised $33 million in a Series A led by Andreessen Horowitz, with Palantir CTO Shyam Sankar, Rappi founder Simón Borrero, and Nubank founder David Vélez among the participants. The personal framing is unusual — top-tier VCs rarely lead funding announcements with founder grief. It is also precise: it tells you exactly what the product is and why it will be used.</p>
+        <p>Since launching in July 2025, Telepatia has deployed its AI-native clinical platform across 25+ hospital systems in Brazil, Colombia, and Mexico. The platform combines AI documentation, clinical decision support, and specialized AI agents — functioning as AI doctors, nurses, and auditors — trained on clinical guidelines, peer-reviewed literature, and local institutional protocols. Protocol adherence across deployed hospitals has risen from 84% to 99%. Physicians recover 1.7 hours per day. The platform has prevented 60,000 medical errors in real time. Total patients reached: 14 million, in under one year of deployment.</p>
+        <p>The investment thesis is structural, not operational. Latin American healthcare operates with deep physician shortages, fragmented information systems, and clinical guideline adherence rates that lag those in developed markets. The constraint cannot be solved by training more doctors — the timeline is a decade. An AI clinical platform that embeds into existing hospital workflows, adapts to local protocols, and improves adherence without changing staffing levels is addressing a structural gap, not a workflow inefficiency. Structural constraints produce TAMs that do not compress when addressed.</p>
+        <p>The cap table is as informative as the metrics. Simón Borrero built Rappi from Colombia into the region's largest on-demand logistics platform, navigating regulatory environments across nine countries. David Vélez built Nubank into the world's largest digital bank by users, beginning in Brazil with a market that global banks had written off. These are not tourism investors taking a position in an emerging market they don't understand. They are founders who built distribution in the exact geographies Telepatia is entering — and they chose to invest at the Series A, not wait for a later stage.</p>
+        <p>Telepatia's goal is to reach half of the region's 1.9 million doctors by end of 2027 — roughly 950,000 physicians across Brazil, Mexico, Colombia, Chile, and Argentina. At that penetration, the company becomes the largest clinical data asset in Latin America: trained on real-world patient interactions, local treatment protocols, and multi-country outcome data that no global competitor can replicate without years of regional presence. That is the asset a16z is acquiring a position in. Not the current revenue. Not even the current product. The data layer that compounds with every deployed physician, in a market where the problem is both large and personal enough that the founder didn't need to be convinced it was worth solving.</p>
+      `
+    },
     'startups-enter-latam-ai-unicorn': {
       tag: 'Startups',
       date: 'June 22, 2026',
