@@ -1101,6 +1101,87 @@
 
   <div class="cards-grid" id="articles-grid">
 
+    <!-- Article — Artificial Intelligence · June 28 2026 -->
+    <article class="card" data-article="ai-openai-jalapeno-chip">
+      <a href="articles/ai-openai-jalapeno-chip/" class="card-img-link">
+        <div class="card-img">
+          <img
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80&auto=format&fit=crop"
+            alt="OpenAI Jalapeño custom inference chip Broadcom ASIC semiconductor AI hardware design acceleration"
+            width="800" height="450" decoding="async"
+            onerror="this.setAttribute('data-error','1');this.style.display='none'"
+            loading="lazy"
+          />
+        </div>
+      </a>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag">Artificial Intelligence</span>
+          <span class="dot">·</span>
+          <time>June 28, 2026</time>
+          <span class="dot">·</span>
+          <span>4 min read</span>
+        </div>
+        <h2 class="card-title">OpenAI Used Its Own AI to Build a Chip. The Nine-Month Timeline Is the Most Important Number in the Announcement.</h2>
+        <p class="card-excerpt">OpenAI and Broadcom unveiled Jalapeño on June 24 — a custom inference ASIC built in nine months, in part by using OpenAI's own models to accelerate the design process. Standard chip development takes two to three years. The compression changes everything downstream, including inference costs and who can afford to build AI products at scale.</p>
+        <a href="articles/ai-openai-jalapeno-chip/" class="read-more" data-article="ai-openai-jalapeno-chip">Read article <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </article>
+
+    <!-- Article — Venture Capital · June 28 2026 -->
+    <article class="card" data-article="vc-fallen-unicorns-chatgpt-reset">
+      <a href="articles/vc-fallen-unicorns-chatgpt-reset/" class="card-img-link">
+        <div class="card-img">
+          <img
+            src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80&auto=format&fit=crop"
+            alt="fallen unicorns pre-ChatGPT startup valuations markdown enterprise SaaS VC bifurcation AI disruption"
+            width="800" height="450" decoding="async"
+            onerror="this.setAttribute('data-error','1');this.style.display='none'"
+            loading="lazy"
+          />
+        </div>
+      </a>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag">Venture Capital</span>
+          <span class="dot">·</span>
+          <time>June 28, 2026</time>
+          <span class="dot">·</span>
+          <span>5 min read</span>
+        </div>
+        <h2 class="card-title">68% Markdown in Three Years. The Pre-ChatGPT Unicorns Are Learning What Moats Are Actually Made Of.</h2>
+        <p class="card-excerpt">More than 220 companies that once held billion-dollar valuations have now fallen below $1B — down 68% on average for those that last raised in 2021. The largest category isn't fintech or consumer: it's enterprise SaaS. Companies built on workflow friction are discovering that friction was never the product.</p>
+        <a href="articles/vc-fallen-unicorns-chatgpt-reset/" class="read-more" data-article="vc-fallen-unicorns-chatgpt-reset">Read article <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </article>
+
+    <!-- Article — Financial Innovation · June 28 2026 -->
+    <article class="card" data-article="fi-brazil-agentic-finance">
+      <a href="articles/fi-brazil-agentic-finance/" class="card-img-link">
+        <div class="card-img">
+          <img
+            src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80&auto=format&fit=crop"
+            alt="Brazil Pix Open Finance Drex agentic AI finance infrastructure fintech LatAm venture capital"
+            width="800" height="450" decoding="async"
+            onerror="this.setAttribute('data-error','1');this.style.display='none'"
+            loading="lazy"
+          />
+        </div>
+      </a>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag">Financial Innovation</span>
+          <span class="dot">·</span>
+          <time>June 28, 2026</time>
+          <span class="dot">·</span>
+          <span>4 min read</span>
+        </div>
+        <h2 class="card-title">88% of AI Capital Lands in the US. The Best Infrastructure for Agentic Finance Is Somewhere Else.</h2>
+        <p class="card-excerpt">In Q1 2026, 88% of AI venture funding went to US companies. Brazil and Mexico together attracted under $300M in AI startup capital across all of 2025. Yet Brazil operates Pix, the world's most active real-time payment network, live Open Finance APIs, and a Drex tokenization layer coming online — the exact stack agentic finance requires.</p>
+        <a href="articles/fi-brazil-agentic-finance/" class="read-more" data-article="fi-brazil-agentic-finance">Read article <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </article>
+
     <!-- Article — Regulation · June 27 2026 -->
     <article class="card" data-article="reg-mythos5-sovereign-ai">
       <a href="articles/reg-mythos5-sovereign-ai/" class="card-img-link">
@@ -2736,6 +2817,49 @@
 
   /* ── Article Modal ──────────────────────────────── */
   const ARTICLES = {
+    'ai-openai-jalapeno-chip': {
+      tag: 'Artificial Intelligence',
+      date: 'June 28, 2026',
+      readtime: '4 min read',
+      img: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80&auto=format&fit=crop',
+      title: "OpenAI Used Its Own AI to Build a Chip. The Nine-Month Timeline Is the Most Important Number in the Announcement.",
+      body: `
+        <p>OpenAI announced Jalapeño on June 24 — a custom ASIC built in partnership with Broadcom, designed specifically for LLM inference, and targeting deployment by end of 2026. The mainstream framing was "OpenAI joins the custom silicon club" alongside Google's TPUs, Meta's MTIA, and Amazon's Trainium. That framing is accurate and misses the point. The number that matters is nine months. ASIC development typically requires two to three years from architecture to first silicon. OpenAI designed Jalapeño in nine months by using its own models to accelerate the design and optimization process. The chip was, in part, designed by the thing it will run. That is a different category of announcement.</p>
+        <p>The direct consequence is inference cost. Jalapeño is a reticle-sized ASIC — the largest possible die size — optimized for LLM inference rather than the general workloads Nvidia's H100s and B200s are architected for. OpenAI says early testing shows "substantially better performance per watt than current state-of-the-art." In practical terms, this means OpenAI's cost per token for serving ChatGPT and its API customers will fall materially when Jalapeño deploys at scale. Inference already got 5-10x cheaper between 2024 and mid-2026. Proprietary silicon is the mechanism for the next reduction.</p>
+        <p>The implications for application-layer builders are precise. Every AI application that runs at scale faces a fundamental unit economics question: what does it cost to serve the inference that powers the product? For the last two years, the answer has been "too much to make most consumer-facing AI products profitable without significant subsidy." As inference costs fall — through efficiency improvements, open-weight competition, and now proprietary silicon — the breakeven point for AI-native products moves. Markets that were previously too price-sensitive to support AI-powered products become viable. That includes most of Latin America, where consumer purchasing power requires cost structures that current inference economics don't support.</p>
+        <p>The Nvidia dependency question is a separate story. OpenAI isn't replacing Nvidia — it's reducing its margin exposure on the products it operates directly. Jalapeño is specifically for inference on OpenAI-operated infrastructure. Training remains GPU-intensive in ways that custom silicon cannot address at the same cost. Broadcom builds the chip under contract, which means OpenAI doesn't need a foundry. The architecture allows OpenAI to optimize the full stack — software, model, and hardware — in a way that third-party GPU customers cannot.</p>
+        <p>The nine-month development cycle is not a one-time achievement. It's a new benchmark. If AI-assisted chip design can produce production-grade silicon in nine months, the cadence of custom silicon development collapses from years to quarters. Every company with sufficient model capability and enough inference volume to justify custom silicon will eventually apply the same playbook. The implication is not that Nvidia loses — its training business is structurally different. The implication is that every large model operator eventually runs its own inference hardware, and the economics of serving AI at scale become internal rather than purchased. That is a material shift in who captures the value from AI adoption, and the acceleration began this week.</p>
+      `
+    },
+    'vc-fallen-unicorns-chatgpt-reset': {
+      tag: 'Venture Capital',
+      date: 'June 28, 2026',
+      readtime: '5 min read',
+      img: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80&auto=format&fit=crop',
+      title: "68% Markdown in Three Years. The Pre-ChatGPT Unicorns Are Learning What Moats Are Actually Made Of.",
+      body: `
+        <p>More than 220 companies that once held billion-dollar valuations have now fallen below $1B. The cohort that last raised in 2021 is worth 68% less on average. Those that last raised in 2022 are down 52%. The largest single category of fallen unicorns is enterprise SaaS — 75 companies, double the number of fintech firms on the same list. These are not obscure startups that couldn't find product-market fit. Many were well-run companies with genuine enterprise contracts, predictable revenue, and credible management teams. What they shared was timing: they reached billion-dollar valuations by solving problems that AI can now solve differently, and sometimes for free.</p>
+        <p>The pattern in enterprise SaaS is specific. Companies that built revenue on per-seat pricing, workflow middleware, and manual process automation are the hardest hit. When the same workflow that required specialized software can be approximated by a general-purpose AI agent with a well-written prompt, the pricing power of the specialized software collapses. The customer doesn't churn immediately — switching costs are real. But they don't expand. They don't add seats. They wait for their contract to expire and then ask whether the same output can come from a different stack. That conversation is now happening in every enterprise IT department globally, and the sales cycles of companies that haven't answered it credibly are getting longer.</p>
+        <p>While 220+ companies lost unicorn status, AI-native startups raised $255.5 billion globally in Q1 2026 alone. Three deals — OpenAI's $122 billion round, Anthropic's $30.6 billion raise, and xAI's absorption into SpaceX — accounted for 67% of that capital. The capital is not being spread across hundreds of startups. It is concentrating rapidly in the companies that own the model capability itself, and in a smaller number of application-layer businesses that have demonstrated data moats or distribution that general-purpose models cannot replicate. Everything in between — the AI-enhanced products that added a wrapper to a pre-existing workflow tool — is under compression.</p>
+        <p>For investors managing LatAm portfolios, the fallen unicorn list is a stress test for every position built before 2023. Brazil's unicorn cohort was constructed primarily in 2019-2022 on fintech, payments, and enterprise SaaS logic. Some of those businesses are durable: the ones built on proprietary transaction data, embedded financial infrastructure, or distribution networks that took years to build. Others were valued on growth multiples that assumed continued SaaS expansion economics. The companies that built genuine data moats — payment processors with years of transaction history, credit platforms with proprietary default data, neobanks with behavioral data across millions of customers — are not the same companies as the ones that built workflow software with AI in the feature set.</p>
+        <p>The harder question is which of today's AI-native startups will be the fallen unicorns of 2029. The same mechanism operates with a three-year delay: a company reaches a billion-dollar valuation on a capability that is eventually commoditized or absorbed by a foundation model, and the valuation mark never updates until the fundraising process forces the issue. The difference between the current AI wave and the 2021 SaaS wave is that AI capability is compounding faster. The moat has to be data, distribution, or both — not the model itself. The companies that raised in 2024 on application-layer theses that assumed a capability advantage the foundation models will eliminate by 2027 face the same reckoning their SaaS predecessors are having now. The calendar is just shorter.</p>
+      `
+    },
+    'fi-brazil-agentic-finance': {
+      tag: 'Financial Innovation',
+      date: 'June 28, 2026',
+      readtime: '4 min read',
+      img: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80&auto=format&fit=crop',
+      title: "88% of AI Capital Lands in the US. The Best Infrastructure for Agentic Finance Is Somewhere Else.",
+      body: `
+        <p>In the first quarter of 2026, AI-related startups raised $297 billion globally. Nearly 88% of it went to US-headquartered companies. The rest of the world split the remaining $35 billion across Europe, Asia, and LatAm. Brazil and Mexico, together the dominant force in regional venture funding, attracted under $300 million in AI startup capital across all of 2025. That capital allocation is not a reflection of where the best AI opportunities are. It is a reflection of where the money is currently paying attention.</p>
+        <p>Agentic finance — AI systems that make autonomous credit decisions, execute compliance workflows, flag fraud in real time, and manage treasury operations without human authorization — requires three things: reliable data access, structured financial APIs, and a large population whose financial behavior exists in digital form. Brazil has all three at a level that no developed market has matched. Pix processes more than 70 million transactions per day and has been live since 2020. Open Finance APIs give registered institutions access to customer financial data across all connected institutions with consent, through live infrastructure that has been operating since 2023. The Drex tokenization layer, now redesigned from a digital currency framework to a programmable settlement system for tokenized assets, adds a programmable reconciliation layer over which financial contracts can execute automatically. The Banco Central has built the technical preconditions for agentic finance faster than any other central bank in the world.</p>
+        <p>The gap between available infrastructure and actual AI application on top of it is striking. The 20% of credit operations currently affected by lien duplications — a specific, quantifiable inefficiency that Drex's reconciliation layer is designed to eliminate — represents an immediate product opportunity for AI-native credit platforms once the settlement layer is live. The same data infrastructure that allows Pix to process a payment in seconds allows an AI underwriting agent to verify income, assess credit history across institutions, and approve a loan in a comparable window. No US bank has the data architecture to do that today. Brazil built it by regulatory mandate, which means every financial institution in the market operates on the same interoperable rails.</p>
+        <p>The capital gap has a structural explanation: US venture firms have US LPs who want US returns, and the regulatory and tax complexity of investing in Brazil has historically been a friction that requires local presence or a specific thesis. What is changing is the thesis. As AI-native financial applications require exactly the kind of structured data infrastructure Brazil has already built, and as Brazilian fintech companies demonstrate that they can compete on unit economics rather than user acquisition, the threshold for global capital is shifting. Itaú Ventures launched with R$500 million in committed capital focused on this intersection. Founders Fund committed $100 million to Brazil in 2026 despite — or because of — a 67% year-over-year decline in Brazilian venture activity. The conviction is that the infrastructure is real and the capital will follow.</p>
+        <p>The argument that Brazil is structurally disadvantaged by high interest rates, political volatility, and limited exit options is real. The Selic at 14.5% creates a hurdle rate that punishes early-stage companies and selects hard on unit economics. But it also means the companies that survive to scale have done so against a harder benchmark than their counterparts in zero-rate environments. The most durable AI finance applications will not be built in markets where data infrastructure is still being constructed. They will be built in markets where the infrastructure is already live, the consumer population is already digital, and the specific financial inefficiencies are measurable enough to build a product around. Those conditions are rare. Brazil has them. The capital hasn't caught up yet — which is either a problem or an opportunity, depending entirely on your time horizon.
+        </p>
+      `
+    },
     'reg-mythos5-sovereign-ai': {
       tag: 'Regulation',
       date: 'June 27, 2026',
