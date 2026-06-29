@@ -1101,6 +1101,87 @@
 
   <div class="cards-grid" id="articles-grid">
 
+    <!-- Article — Financial Innovation · June 29 2026 -->
+    <article class="card" data-article="fi-cumbuca-openfinance-mcp">
+      <a href="articles/fi-cumbuca-openfinance-mcp/" class="card-img-link">
+        <div class="card-img">
+          <img
+            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80&auto=format&fit=crop"
+            alt="Brazil Open Finance MCP Cumbuca AI assistant bank data consent layer agentic finance 2026"
+            width="800" height="450" decoding="async"
+            onerror="this.setAttribute('data-error','1');this.style.display='none'"
+            loading="lazy"
+          />
+        </div>
+      </a>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag">Financial Innovation</span>
+          <span class="dot">·</span>
+          <time>June 29, 2026</time>
+          <span class="dot">·</span>
+          <span>4 min read</span>
+        </div>
+        <h2 class="card-title">Brazil Just Made Your Bank Account AI-Readable. Cumbuca's MCP Server Is the First Version of What Agentic Finance Actually Requires.</h2>
+        <p class="card-excerpt">Cumbuca launched a Model Context Protocol server that lets ChatGPT and Claude access regulated Open Finance data through existing consent flows. Setup takes two minutes. The consent layer is now the infrastructure — and whoever owns it sits between 215 million Brazilian financial consumers and every AI application that wants to serve them.</p>
+        <a href="articles/fi-cumbuca-openfinance-mcp/" class="read-more" data-article="fi-cumbuca-openfinance-mcp">Read article <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </article>
+
+    <!-- Article — Artificial Intelligence · June 29 2026 -->
+    <article class="card" data-article="ai-sail-research-long-horizon">
+      <a href="articles/ai-sail-research-long-horizon/" class="card-img-link">
+        <div class="card-img">
+          <img
+            src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80&auto=format&fit=crop"
+            alt="Sail Research $80M Sequoia AI agent long-horizon infrastructure stateful sandbox enterprise cost 2026"
+            width="800" height="450" decoding="async"
+            onerror="this.setAttribute('data-error','1');this.style.display='none'"
+            loading="lazy"
+          />
+        </div>
+      </a>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag">Artificial Intelligence</span>
+          <span class="dot">·</span>
+          <time>June 29, 2026</time>
+          <span class="dot">·</span>
+          <span>4 min read</span>
+        </div>
+        <h2 class="card-title">Every AI Application Is Priced for a 30-Second Interaction. Sail Research Just Raised $80M on the Thesis That the Real Work Takes Weeks.</h2>
+        <p class="card-excerpt">Sail Research closed an $80M Sequoia-led Series A to build infrastructure for AI agents that run for days or weeks rather than seconds — 10x lower token costs, stateful sandbox environments, and investors including the chairman of Alphabet. The agent runtime is the constraint everyone's been engineering around.</p>
+        <a href="articles/ai-sail-research-long-horizon/" class="read-more" data-article="ai-sail-research-long-horizon">Read article <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </article>
+
+    <!-- Article — Venture Capital · June 29 2026 -->
+    <article class="card" data-article="vc-lp-concentration-two-tier">
+      <a href="articles/vc-lp-concentration-two-tier/" class="card-img-link">
+        <div class="card-img">
+          <img
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80&auto=format&fit=crop"
+            alt="VC LP capital concentration five firms venture market bifurcation emerging managers Q1 2026"
+            width="800" height="450" decoding="async"
+            onerror="this.setAttribute('data-error','1');this.style.display='none'"
+            loading="lazy"
+          />
+        </div>
+      </a>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag">Venture Capital</span>
+          <span class="dot">·</span>
+          <time>June 29, 2026</time>
+          <span class="dot">·</span>
+          <span>5 min read</span>
+        </div>
+        <h2 class="card-title">Five Firms Took 73% of LP Capital in Q1. The Middle of the Venture Market Is Now Competing for a Pool That's Getting Smaller Every Quarter.</h2>
+        <p class="card-excerpt">In Q1 2026, five VC firms captured 73.1% of all LP capital raised globally. Emerging managers under $250M face frozen pipelines. The bifurcation isn't between funded and unfunded startups — it's between two VC markets with different entry costs, deployment scales, and return expectations.</p>
+        <a href="articles/vc-lp-concentration-two-tier/" class="read-more" data-article="vc-lp-concentration-two-tier">Read article <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </article>
+
     <!-- Article — Artificial Intelligence · June 28 2026 -->
     <article class="card" data-article="ai-openai-jalapeno-chip">
       <a href="articles/ai-openai-jalapeno-chip/" class="card-img-link">
@@ -2817,6 +2898,48 @@
 
   /* ── Article Modal ──────────────────────────────── */
   const ARTICLES = {
+    'fi-cumbuca-openfinance-mcp': {
+      tag: 'Financial Innovation',
+      date: 'June 29, 2026',
+      readtime: '4 min read',
+      img: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80&auto=format&fit=crop',
+      title: "Brazil Just Made Your Bank Account AI-Readable. Cumbuca's MCP Server Is the First Version of What Agentic Finance Actually Requires.",
+      body: `
+        <p>Brazil has operated the world's most ambitious financial data-sharing infrastructure since 2023 — 34 million Open Finance consents, live APIs across every major institution, regulated by the Central Bank. Until May, none of it could reach an AI assistant without a developer writing custom integration code. Cumbuca changed that in a single launch week by building an MCP server — a Model Context Protocol implementation — that connects ChatGPT and Claude directly to regulated bank account data through the existing consent architecture. Setup takes two minutes.</p>
+        <p>Model Context Protocol is the standard Anthropic developed to give AI models structured, authorized access to external data sources. It's the same mechanism that lets Claude read your email or query your code repository — now applied to regulated financial data in Brazil. A user authenticates with their CPF and bank credentials through the existing Open Finance consent flow, and their bank statement data becomes available to the AI assistant in real time. The architecture is pass-through: no data is stored on Cumbuca's servers, and the authorization chain runs entirely through the Central Bank's regulated consent infrastructure. The regulatory compliance is not a workaround — it's the product.</p>
+        <p>The implications for agentic finance are structural. The limiting factor for AI systems that make credit decisions, financial plans, or compliance assessments has never been the quality of the underlying model — it has been access to verified, real-time financial data under regulatory authorization. Open Finance in Brazil provides that authorization layer at scale. Cumbuca's MCP server is the technical bridge that makes what the Central Bank built in 2023 accessible to AI systems in 2026. The consent flow designed for data portability between institutions now serves as the authorization mechanism for AI-driven financial applications.</p>
+        <p>Current scope is deliberately narrow: bank statements from one account at one institution, with credit cards and additional financial modalities on the roadmap. That narrowness is correct. The architecture problem being solved — regulated, consent-based, real-time financial data access for AI — is the hard part. Once it works for one account at one bank, extension to the full Open Finance dataset is an API integration problem, not a regulatory one. Brazil's framework already covers current accounts, savings, credit cards, credit operations, investments, insurance, and pensions. The MCP server is the beginning of a data access layer that, fully implemented, covers the complete financial life of every consenting user in the country.</p>
+        <p>The business logic that follows is precise: the company managing the consent layer and the data pipeline from regulated financial APIs to AI assistants sits between 215 million Brazilian financial consumers and every AI application that wants to serve them. That position is not available through general-purpose AI capability. It requires building on the specific regulatory framework that Brazil's Central Bank has operated for three years, understanding the consent flows that 34 million users have already navigated, and maintaining the trust that the Central Bank's authorization architecture confers. Open Finance data routed through MCP is ephemeral, user-controlled, and compliant by design. When everyone asks where agentic finance will be built first, Brazil's answer is quietly assembling itself — one consent flow at a time.</p>
+      `
+    },
+    'ai-sail-research-long-horizon': {
+      tag: 'Artificial Intelligence',
+      date: 'June 29, 2026',
+      readtime: '4 min read',
+      img: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80&auto=format&fit=crop',
+      title: "Every AI Application Is Priced for a 30-Second Interaction. Sail Research Just Raised $80M on the Thesis That the Real Work Takes Weeks.",
+      body: `
+        <p>Every AI application built in 2024 was designed around a constraint nobody named explicitly: inference was too expensive to run for more than a few seconds at a time. The business logic of enterprise AI — the task that actually justifies automation — often takes hours. Auditing a contract portfolio. Reconciling three months of financial transactions. Running overnight due diligence on a credit application. The model can do those things. The economics make it difficult to justify at current token costs. Sail Research raised $80 million from Sequoia, Kleiner Perkins, and a roster of operators including John Hennessy and Lip-Bu Tan to build the infrastructure layer that eliminates that constraint.</p>
+        <p>Sail's architecture has two components. The first is an inference stack rebuilt specifically for throughput and sustained efficiency rather than single-token latency — the company claims up to 10x lower cost per token compared to competitors for long-running workloads. The second is Sailboxes: stateful sandbox environments designed to run for days rather than seconds, maintaining persistent context so an agent can suspend, resume, and accumulate work without resetting its state. The combination targets what the company calls "long-horizon agents" — AI systems that tackle tasks measured in hours, days, or weeks rather than interactions. Sail launched out of stealth at a $450 million valuation, founded by Stanford classmates Neil Movva and Samir Menon, who previously built computer vision hardware and infrastructure security at Apple.</p>
+        <p>The investor composition signals how seriously the infrastructure problem is being taken. Sequoia led the Series A, Kleiner Perkins led the seed. The angel roster includes John Hennessy, chairman of Alphabet, Lip-Bu Tan, CEO of Intel, and Tri Dao, Chief Scientist at Together AI. These are not investors making bets on which AI wrapper will win — they are operators who understand that the bottleneck in enterprise AI deployment is infrastructure economics, not model capability. When Hennessy and Tan write personal checks into an AI infrastructure startup, the implicit message is that the compute-efficiency problem they spent decades solving in silicon is re-emerging in a different form at the software layer.</p>
+        <p>The application-layer implication is precise. AI companies building credit underwriting, compliance monitoring, financial research, or regulatory reporting tools have been engineering around the agent runtime constraint since they launched. A credit agent that can run for 20 minutes analyzing an applicant's full financial history across Open Finance consents costs fundamentally different unit economics than one that runs for 30 seconds. The quality of the output correlates with the depth of the analysis, and depth requires runtime. Sail's bet is that lowering the cost of long agent runs by 10x doesn't just make existing applications cheaper — it makes entirely new application categories viable that couldn't exist within current economics.</p>
+        <p>The deeper question is whether 10x token cost reduction is the constraint that matters most, or whether stateful persistence — an agent accumulating context across days — is the more fundamental unlock. The two are related but not identical. An agent that runs 30 seconds 48 times costs the same as one running 24 hours continuously, but produces qualitatively different work. Sailboxes bet that enterprise AI needs continuous agents, not repeated interactions. Whether that bet is right depends on which enterprises value continuity over throughput — and financial services, with its need for complete audit trails and persistent regulatory context, may be exactly the market where the distinction matters most.</p>
+      `
+    },
+    'vc-lp-concentration-two-tier': {
+      tag: 'Venture Capital',
+      date: 'June 29, 2026',
+      readtime: '5 min read',
+      img: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80&auto=format&fit=crop',
+      title: "Five Firms Took 73% of LP Capital in Q1. The Middle of the Venture Market Is Now Competing for a Pool That's Getting Smaller Every Quarter.",
+      body: `
+        <p>The VC capital concentration story most people are tracking is the wrong one. Deal concentration — five AI companies absorbing the majority of deployed capital in Q1 2026 — is visible and dramatic. The structural shift that matters more is one layer up: five venture firms captured 73.1% of all LP capital raised in Q1 2026. $330.9 billion was deployed into startups globally. The funds that deployed it were not distributed across a broad ecosystem of venture managers. They concentrated at a speed and scale that the LP market has not seen before. Andreessen Horowitz, Insight Partners, Sequoia, Thrive Capital, and General Catalyst collectively manage more than $300 billion in AUM. They are not competing with most VC funds for LP capital — they occupy a separate market.</p>
+        <p>The consequence for emerging managers is functional. Funds under $250M are the category most affected: LP commitment pipelines are frozen. Endowments, pension funds, and sovereign wealth funds that historically allocated meaningfully to emerging managers are redirecting capital toward the top five for two converging reasons. First, performance data increasingly concentrates in the largest AI deals, and the largest AI deals went to the largest funds. Second, the administrative burden of managing a diversified emerging manager portfolio has grown faster than the expected return premium. The institutional LP's marginal cost of adding a 22nd fund relationship is high. The marginal return of that 22nd relationship is uncertain. The math works against emerging managers even before accounting for the AI-driven concentration in the underlying portfolio.</p>
+        <p>The implication for founders is more nuanced than "raise from a top-five fund or struggle." Concentration in LP capital creates concentration in follow-on capacity: the funds with the largest LP bases have the deepest pockets for bridge rounds, down-round support, and continuation vehicles. When a startup faces a difficult fundraising environment in 2027, whether its lead investor can write a bridge check will be determined in part by whether that investor was able to raise its own fund. For founders currently evaluating term sheets from mid-tier funds, the question worth asking is not just "what's the valuation?" but "how much dry powder does this fund have, and how confident is this GP in their next raise?"</p>
+        <p>The AI concentration of deployed capital creates a second-order effect on fund economics that hasn't fully surfaced yet. The top five funds are deploying at a scale — and into valuations — that require IPO or M&A outcomes worth hundreds of billions of dollars to generate meaningful DPI. The $965B Anthropic valuation, the $852B OpenAI post-money, Baseten at $13B — these are returns that make sense for a fund managing $50B or more. They are not the return profile that mid-size emerging managers can participate in meaningfully. The LP capital concentration and the deal capital concentration are reinforcing the same structural divide: two VC markets, operating in the same industry, with fundamentally different entry costs, deployment scales, and return expectations. Most of the venture capital that headlines describe is happening in one of them. Most of the venture capital funds that exist are in the other.</p>
+        <p>For LatAm founders, the LP concentration carries a specific implication: the most active institutional LPs in Brazilian VC are domestic — BNDESPAR, large family offices, and a handful of global firms with explicit regional theses like Founders Fund. The dynamics freezing emerging manager pipelines globally are partly insulating LatAm-focused funds because they are not directly competing for the same LP capital as US-based mega-funds. That insulation cuts both ways. The same reasons global capital doesn't chase LatAm emerging managers also limit the growth ceiling of regional funds. What doesn't change: capital efficiency matters more in Brazil. The companies that survive the Selic hurdle rate are built to generate returns without the $500M check that now defines the US Series A. The two-tier VC market globally is both a constraint and, for founders who understand it, a map.</p>
+      `
+    },
     'ai-openai-jalapeno-chip': {
       tag: 'Artificial Intelligence',
       date: 'June 28, 2026',
