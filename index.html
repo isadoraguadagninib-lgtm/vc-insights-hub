@@ -1101,6 +1101,87 @@
 
   <div class="cards-grid" id="articles-grid">
 
+    <!-- Article — Venture Capital · June 30 2026 -->
+    <article class="card" data-article="vc-menlo-anthropic-paper-billions">
+      <a href="articles/vc-menlo-anthropic-paper-billions/" class="card-img-link">
+        <div class="card-img">
+          <img
+            src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80&auto=format&fit=crop"
+            alt="Menlo Ventures $3 billion fund Anthropic stake venture capital concentration risk 2026"
+            width="800" height="450" decoding="async"
+            onerror="this.setAttribute('data-error','1');this.style.display='none'"
+            loading="lazy"
+          />
+        </div>
+      </a>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag">Venture Capital</span>
+          <span class="dot">·</span>
+          <time>June 30, 2026</time>
+          <span class="dot">·</span>
+          <span>5 min read</span>
+        </div>
+        <h2 class="card-title">Menlo Raised a Record $3 Billion Fund on the Strength of One Bet. The Hard Part Is Turning $14 Billion on Paper Into Cash.</h2>
+        <p class="card-excerpt">Menlo Ventures closed $3 billion across two new funds — the largest raise in its 50-year history — built almost entirely on the strength of one position: an Anthropic stake now marked near $14 billion. The fund hasn't distributed a dollar of it. Paper gains and cash returns are not the same asset, and 2026's AI venture market is about to find out how different.</p>
+        <a href="articles/vc-menlo-anthropic-paper-billions/" class="read-more" data-article="vc-menlo-anthropic-paper-billions">Read article <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </article>
+
+    <!-- Article — Artificial Intelligence · June 30 2026 -->
+    <article class="card" data-article="ai-straiker-agent-security-64m">
+      <a href="articles/ai-straiker-agent-security-64m/" class="card-img-link">
+        <div class="card-img">
+          <img
+            src="https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=800&q=80&auto=format&fit=crop"
+            alt="Straiker AI agent security $64 million Series A enterprise agentic risk 2026"
+            width="800" height="450" decoding="async"
+            onerror="this.setAttribute('data-error','1');this.style.display='none'"
+            loading="lazy"
+          />
+        </div>
+      </a>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag">Artificial Intelligence</span>
+          <span class="dot">·</span>
+          <time>June 30, 2026</time>
+          <span class="dot">·</span>
+          <span>4 min read</span>
+        </div>
+        <h2 class="card-title">91% of Successful Attacks on AI Agents Steal Data Without a Single Stolen Password. Straiker Raised $64M Betting Nobody Else Is Watching.</h2>
+        <p class="card-excerpt">Straiker closed a $64 million Series A to secure the AI agents now booking travel, writing code, and running back-office tasks inside enterprises. Its own research found over a third of successful attacks on coding agents achieve remote code execution — using only the permissions the agent was already granted. The capability arms race has a security deficit nobody priced in.</p>
+        <a href="articles/ai-straiker-agent-security-64m/" class="read-more" data-article="ai-straiker-agent-security-64m">Read article <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </article>
+
+    <!-- Article — Regulation · June 30 2026 -->
+    <article class="card" data-article="reg-sec-reform-brazil-fintech-ipos">
+      <a href="articles/reg-sec-reform-brazil-fintech-ipos/" class="card-img-link">
+        <div class="card-img">
+          <img
+            src="https://images.unsplash.com/photo-1543699565-003b8adda5fc?w=800&q=80&auto=format&fit=crop"
+            alt="Sao Paulo Brazil fintech IPO New York Stock Exchange Nasdaq SEC reform 2026"
+            width="800" height="450" decoding="async"
+            onerror="this.setAttribute('data-error','1');this.style.display='none'"
+            loading="lazy"
+          />
+        </div>
+      </a>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag">Regulation</span>
+          <span class="dot">·</span>
+          <time>June 30, 2026</time>
+          <span class="dot">·</span>
+          <span>5 min read</span>
+        </div>
+        <h2 class="card-title">The SEC Just Made It Easier for Brazilian Fintechs to List in New York. PicPay and Agibank Prove Easier Rules Were Never the Real Problem.</h2>
+        <p class="card-excerpt">The SEC proposed its largest IPO rule overhaul in two decades, reigniting the question of which Brazilian fintech lists in New York next. But the two that already did — PicPay and Agibank — are trading below their offer prices months later. Market access was never the constraint. Pricing a Pix-dependent moat was.</p>
+        <a href="articles/reg-sec-reform-brazil-fintech-ipos/" class="read-more" data-article="reg-sec-reform-brazil-fintech-ipos">Read article <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </article>
+
     <!-- Article — Financial Innovation · June 29 2026 -->
     <article class="card" data-article="fi-cumbuca-openfinance-mcp">
       <a href="articles/fi-cumbuca-openfinance-mcp/" class="card-img-link">
@@ -2898,6 +2979,51 @@
 
   /* ── Article Modal ──────────────────────────────── */
   const ARTICLES = {
+    'vc-menlo-anthropic-paper-billions': {
+      tag: 'Venture Capital',
+      date: 'June 30, 2026',
+      readtime: '5 min read',
+      img: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1200&q=80&auto=format&fit=crop',
+      title: "Menlo Raised a Record $3 Billion Fund on the Strength of One Bet. The Hard Part Is Turning $14 Billion on Paper Into Cash.",
+      body: `
+        <p>Fifty years of track record, and the headline reduces to one number: Menlo Ventures closed $3 billion across two new vehicles this week — Menlo Ventures XVII for seed through Series A, and Menlo Inflection IV for growth-stage checks — the largest raise in the firm's history. The honest version of the announcement is simpler than the press release. Menlo got one position right at a scale most funds never see, and that position is now doing the fundraising for them.</p>
+        <p>The position is Anthropic. Menlo's initial bet, plus roughly $500 million deployed across follow-on rounds, is now marked at close to $14 billion following Anthropic's climb past a $965 billion valuation this month. A $3 billion new fund, raised on the back of a single stake worth nearly five times that amount, is not a subtle signal. It is the entire pitch. LPs are not underwriting Menlo's next decade of stock-picking — they are underwriting access to whatever Menlo does next with a firm that already proved it can find an outlier of this size.</p>
+        <p>The problem with that pitch is the word "marked." $14 billion is what Anthropic is worth on paper, at a valuation set by the most recent private round, among investors who have every incentive to keep marking it up. Menlo has not sold a share. It has not returned a dollar to its LPs from that position. DPI — distributions to paid-in capital, the only return metric LPs ultimately care about — is still zero on the position that justifies the entire fund. The gap between a number on a cap table and cash in an LP's account is where every venture cycle has eventually found its casualties, and 2026's AI valuations have not yet been tested by a full liquidity cycle.</p>
+        <p>That test is coming, and the early data is not encouraging. The path from Menlo's paper billions to realized returns runs through an IPO or a secondary sale, in a market that just got its first look at how public investors price recent-vintage tech debuts: shares trading meaningfully below offer price within months of listing has become the pattern rather than the exception this year. A $965 billion private mark surviving first contact with public markets, retail skepticism, and quarterly earnings scrutiny is a different proposition than a private mark surviving the next funding round, where the next investor's main incentive is also to keep the number moving up.</p>
+        <p>None of this makes Menlo's bet wrong. It makes the firm's next several years legible in a way most VC firms can avoid. Most funds blend two dozen mediocre outcomes with two or three real winners and never have to answer publicly what any single position is actually worth. Menlo's identity is now inseparable from one company's path to liquidity. If Anthropic's IPO prices well and the stock holds, Menlo becomes the defining venture story of the AI cycle. If it doesn't, the firm that bet everything on being right once has to explain why a fund that size needs to exist at all.</p>
+        <p>The deeper question Menlo's raise puts in front of every LP evaluating a venture allocation in 2026 is whether paper marks should be funding new commitments at all. The honest answer is that they always have — venture has run on unrealized gains and reputational momentum since the asset class existed. What's different now is the scale of the number doing the talking, and how thin the layer between conviction and concentration has become when one position is worth more than the new fund built to find the next one.</p>
+      `
+    },
+    'ai-straiker-agent-security-64m': {
+      tag: 'Artificial Intelligence',
+      date: 'June 30, 2026',
+      readtime: '4 min read',
+      img: 'https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=1200&q=80&auto=format&fit=crop',
+      title: "91% of Successful Attacks on AI Agents Steal Data Without a Single Stolen Password. Straiker Raised $64M Betting Nobody Else Is Watching.",
+      body: `
+        <p>The scariest attacks on AI agents don't look like attacks. No malware, no stolen credentials, no alarm that fires on any traditional security dashboard. Straiker's own research, published alongside its $64 million Series A this week, found that 91% of successful attacks on productivity agents end in quiet data theft using nothing but the permissions the agent was already granted. The agent did exactly what it was authorized to do. It was just told to do it by the wrong person.</p>
+        <p>The round was led by Marathon Management Partners, with Citi Ventures, Illuminate Financial, and Workday Ventures joining, and Bain Capital Ventures and Lightspeed returning from the seed. Total raised is now $85 million for a company that launched in 2025. CEO Ankur Shah previously ran Palo Alto Networks' Prisma Cloud business, and the instinct behind Straiker is the one he learned watching cloud security mature a decade ago: you don't secure infrastructure by locking it down before anyone uses it. You secure it by watching what the thing you built is actually doing once real users — and now, real agents — get their hands on it.</p>
+        <p>The other data point in Straiker's research is the one that should worry anyone deploying coding agents at scale: 36% of successful attacks on coding agents achieve remote code execution. Every enterprise racing to ship AI-written software this year inherited a new class of vulnerability the moment it gave an agent commit access, deployment credentials, or the ability to run its own generated code. Traditional application security scans the code a human wrote. It was never built to evaluate the trustworthiness of an agent that writes, tests, and executes its own code in a single autonomous loop.</p>
+        <p>The structural problem is that agent permissions are granted once, broadly, for convenience — an agent that books travel needs calendar access, payment methods, and email; an agent that handles back-office work needs CRM, financial systems, and document stores — and then never re-evaluated against what the agent is actually doing in any given moment. An attacker doesn't need to breach that perimeter. They need to convince the agent, through a manipulated input or a poisoned data source, to use the access it already legitimately holds. Static permission models, the foundation of every enterprise security stack built before 2024, have no mechanism for catching that.</p>
+        <p>This is not a peripheral problem for the agentic finance thesis — it's the central one. Every round flowing into AI underwriting, claims processing, KYC, and payments decisioning is a round betting that agents handling regulated, money-moving decisions can be trusted with standing access to the systems that move that money. Straiker's growth — run-rate revenue up more than 15-fold in under a year, with frontier AI labs and Fortune 500 companies as customers — is the market admitting that trust assumption isn't holding by default. Enterprises aren't buying this defensively. They're buying it because they've already been burned.</p>
+        <p>Capital is flooding into what agents can do. Almost none of it, by comparison, is flowing into what happens when an agent's legitimate access gets pointed somewhere it shouldn't. That asymmetry closes one of two ways: the market corrects it by funding the Straikers of the agent economy at the pace it's funding agent capability, or an incident big enough to dominate a news cycle does the correcting instead. Betting on the first one arriving in time is the optimistic read.</p>
+      `
+    },
+    'reg-sec-reform-brazil-fintech-ipos': {
+      tag: 'Regulation',
+      date: 'June 30, 2026',
+      readtime: '5 min read',
+      img: 'https://images.unsplash.com/photo-1543699565-003b8adda5fc?w=1200&q=80&auto=format&fit=crop',
+      title: "The SEC Just Made It Easier for Brazilian Fintechs to List in New York. PicPay and Agibank Prove Easier Rules Were Never the Real Problem.",
+      body: `
+        <p>The SEC proposed its largest IPO rule overhaul in more than two decades in May — Release No. 2026-46, still in public consultation but already treated by lawyers and bankers as a watershed for foreign private issuers. The framing across Brazilian fintech coverage this week has been uniform: the reform unlocks the next wave of listings, and the only open question is which company goes next. That framing skips over the two companies that already went, and the answer they're providing in real time.</p>
+        <p>PicPay debuted on Nasdaq on January 29, raising $434 million at $19 a share — the top of its range, a clean process by every conventional measure. The stock is down roughly 20% since. Agibank, scheduled to follow on the NYSE two weeks later, cut its own offering in response: from 43.6 million shares priced at $15 to $18 down to 20 million shares at $12, citing PicPay's slide as the reason. Agibank still raised $240 million and still listed. Both companies got exactly the market access the SEC's reform is designed to broaden. Neither got the valuation their growth metrics would have implied a year earlier in private markets.</p>
+        <p>That's the tell. If listing friction were the binding constraint on Brazilian fintech IPOs, removing it would matter enormously. PicPay and Agibank didn't struggle to list — they struggled to hold a price once public investors got to set it instead of growth-stage VCs. The SEC reform addresses the part of the problem that was never actually the hard part.</p>
+        <p>The harder part is structural, and it's specific to how Brazilian fintechs grew. Pix and Open Finance are public infrastructure — free, standardized rails that the Banco Central built and every licensed institution accesses on equal terms. That infrastructure is genuinely valuable; it's why Brazilian fintechs scaled customer acquisition at a cost no US neobank has matched. But it is also not a moat once a public-market analyst starts modeling who else can replicate the same acquisition motion on the same rails. The growth story that justified a private markup doesn't automatically survive being marked to a multiple every quarter by investors asking what stops the next well-funded entrant from doing exactly the same thing on exactly the same infrastructure.</p>
+        <p>This is the question PicPay and Agibank are now answering in public, whether they intended to or not: what does a Brazilian fintech own that Pix access doesn't hand to every competitor for free? Proprietary underwriting data built on years of transaction history. Retention economics that don't reset every time a competitor matches the headline product. A credit book seasoned enough to price risk better than a new entrant can on day one. Those are the assets public investors are actually pricing — and growth-stage rounds, where TAM slides and Pix-adoption curves carried the narrative, rarely forced founders to prove that case as rigorously.</p>
+        <p>Whichever Brazilian fintech goes public third — and several are positioned to — inherits a roadshow environment the first two didn't have to navigate: two recent comps trading below offer, and a buy side that has already learned to ask the moat question before the growth question. Easier SEC listing rules lower the cost of finding that out. They do nothing to lower the cost of being wrong about it. The next nine months of PicPay's and Agibank's stock charts will tell the next candidate more about timing and positioning than any rule change coming out of Washington.</p>
+      `
+    },
     'fi-cumbuca-openfinance-mcp': {
       tag: 'Financial Innovation',
       date: 'June 29, 2026',
